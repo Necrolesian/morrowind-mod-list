@@ -4894,7 +4894,7 @@ And that's it. We're done. (Well, almost done. Don't forget to regenerate distan
 
 The process we've just been through to *prepare* to play Morrowind is almost as much of an epic journey as the game itself. (And writing this list certainly has been.)
 
-Feel free to contact me on Discord (Necrolesian#9692) or the Nexus with any feedback, questions, suggestions or insults.
+Feel free to contact me on Discord (Necrolesian#9692) or [the Nexus](https://www.nexusmods.com/morrowind/users/70336838) with any feedback, questions, suggestions or insults.
 
 In the meantime, say hi to that old sugar-tooth Caius for me.
 
