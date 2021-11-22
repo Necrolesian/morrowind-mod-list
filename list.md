@@ -3606,7 +3606,7 @@ The readme includes detailed comparisons between vanilla, BTBGI and this mod, an
 
 This mod makes a number of changes to the game in order to prevent exploits or make it more difficult to get really nice stuff. It makes some enemies guarding aforementioned nice stuff tougher, plus adds some new guards and other enemies, replaces some of that nice stuff with less nice stuff, and makes a few other changes. See the readme for a complete list.
 
-The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive contains a number of sub-packages, but we only need Anti-Cheese. (The Enhanced Detection patch is for the full version of ED; it's not needed with the Less Lite version.)
+The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive contains a number of sub-packages, but right now we only need Anti-Cheese. (You might end up installing the Ashfall patch later, depending on your mod choices. The Enhanced Detection patch is for the full version of ED; it's not needed with the Less Lite version.)
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
@@ -4247,6 +4247,14 @@ There are a few special considerations for those following this list if you choo
 3. A beta version of Ashfall had a conflict with CCCP, where max magicka could get out of whack under certain circumstances (possibly among other things). With the release version of Ashfall, there appears to no longer be a serious conflict.
 
     I think the two mods should work fine together, but if you experience any problems playing with both, please let me know.
+
+## [Ashfall BTBGI Patch](https://www.nexusmods.com/morrowind/mods/50308)
+
+Ashfall changes the values of a few ingredients; in particular, it lowers the value of three meat ingredients that BTBGI raises. This patch raises them back to BTBGI values.
+
+You should have already downloaded this file for Morrowind Anti-Cheese, which we installed earlier. Create an installer for the Ashfall patch, and install after Ashfall in Wrye Mash.
+
+However I do recommend tweaking the patch's main.lua first to change the value of Rat Meat from 10 to 15, as it is in BTBGI Necro Edit.
 
 ## [No Combat Menu](https://www.nexusmods.com/morrowind/mods/46732)
 
