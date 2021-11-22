@@ -4256,6 +4256,14 @@ You should have already downloaded this file for Morrowind Anti-Cheese, which we
 
 However I do recommend tweaking the patch's main.lua first to change the value of Rat Meat from 10 to 15, as it is in BTBGI Necro Edit.
 
+## [Alvazir's BTBGI Adjustments](https://www.nexusmods.com/morrowind/mods/48955)
+
+You should already have this file too; the plugin in question is "BTBGI Adjustments", in the "Game Settings - Modular" sub-package of Alvazir's BTBGI Necro Edit Modular Patch. I normally wouldn't recommend using this plugin, as it makes changes to BTBGI that I generally don't agree with. However, there's one tweak this plugin makes that I think makes sense if you're using Ashfall.
+
+In vanilla Morrowind, merchants' barter gold takes 24 hours to reset. BTBGI changes this to one hour, as a convenience feature, to minimize how long players need to stand around and wait to sell all their shit. This plugin reverts the barter gold reset time back to 24 hours. I think this works well with Ashfall, because Ashfall itself provides the incentive not to just stand there and wait 24 hours, because your needs will advance greatly during that time.
+
+So, if you're using Ashfall, I recommend going back to the BTBGI Necro Edit Modular Patch installer in Wrye Mash, installing the BTBGI Adjustments plugin, and then opening that plugin in Enchanted Editor and *deleting* all GMSTs *except* for `fBarterGoldResetDelay`. This plugin needs to load *after* BTBGI in your load order.
+
 ## [No Combat Menu](https://www.nexusmods.com/morrowind/mods/46732)
 
 This mod, as I'm sure you can imagine just by looking at the name, prevents you from opening the menu while you're in combat. Specifically, it prevents you from opening the inventory / right-click menu or opening containers (including corpses), but does not prevent you from opening the game menu with the Escape key.
@@ -4721,6 +4729,7 @@ avp BTBGI-NE - Bloodmoon Rebalance.esp
 avp BTBGI-NE - Beware the Sixth House.esp
 avp BTBGI-NE - Game Settings - More Meaningful Encumbrance.esp
 avp BTBGI-NE - Game Settings - Suggested Tweaks.esp
+avp BTBGI-NE - Game Settings - BTBGI Adjustments.esp
 Bloodmoon Rebalance - PFP.esp
 EcoAdjCrime (Necro Edit).esp
 TheMidnightOil.ESP
