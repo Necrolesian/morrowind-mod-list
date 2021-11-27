@@ -1730,9 +1730,9 @@ Second, delete the mge3 directory (Wrye Mash can't install that directory anyway
 
 Finally, you can also delete the MWSE directory containing the Weather Adjuster config file, because we'll be installing a different one in a bit. All we need to install from this archive are the shaders.
 
-## [MGE XE Shader Pack Rev2](https://drive.google.com/file/d/15gyqU9u45wniksi6prMQdMty1OYWNsQH/view?usp=sharing)
+## [MGE XE Shader Pack](https://drive.google.com/file/d/1c94ZR8NLAOIit0NXsupCZBK0Wv7oPD9r/view?usp=sharing)
 
-This is another shader pack, like the above. Install only the core sub-package.
+This is another shader pack, like the above. There's one change we need to make to the archive before installing. In the core sub-package, *delete* the MWSE directory. Now install only the core sub-package; ignore the others.
 
 Now that we've installed the shaders from these two mods in Wrye Mash, open up MGE XE, make sure the "enable shaders" checkbox is checked, and click "shader setup" to open a new window. Click the "modding" button to expand the window to show a pane where you can adjust your active shaders. From here adjusting your shader list should be straightforward.
 
@@ -1744,10 +1744,10 @@ Underwater Interior Effects
 Underwater Effects
 Sunshafts
 Bloom Soft
-deband_fogawarev2
+deband_fogawarev3
 ```
 
-SSAO provides a nice shadowing effect on objects, and the sunshafts are pretty. I like the soft bloom effect, but I think fine bloom is too much. The deband_fogawarev2 shader helps reduce the phenomenon of striped "bands" low in the sky in some weather conditions. I think HDR and depth of field suck, but it's a matter of personal taste. I haven't noticed a difference using the film shader, and it can safely be ignored.
+SSAO provides a nice shadowing effect on objects, and the sunshafts are pretty. I like the soft bloom effect, but I think fine bloom is too much. The deband_fogawarev3 shader helps reduce the phenomenon of striped "bands" low in the sky in some weather conditions. I think HDR and depth of field suck, but it's a matter of personal taste. I haven't noticed a difference using the film shader, and it can safely be ignored.
 
 There's also the MGG darker interiors shader, which, as you might have guessed, provides the effect of making interiors darker. This is useful if you're not using an overall lighting overhaul, but we'll be installing a lighting mod later that makes interiors darker, so the MGG darker interiors shader is not needed.
 
