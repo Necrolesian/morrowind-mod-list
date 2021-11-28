@@ -1510,6 +1510,14 @@ Morrowind's vanilla cutscene videos look like garbage, especially compared to th
 
 Note that these mods require the "hi-def cutscene support" feature of Morrowind Code Patch; otherwise the game will crash when trying to play them.
 
+## [Unstretched Videos](https://www.nexusmods.com/morrowind/mods/50482)
+
+This first video replacer just takes all of the vanilla game videos and puts black bars on the sides of them, so they won't appear stretched when playing with a widescreen (16:9) monitor. The videos aren't upscaled or reworked otherwise - they don't look any sharper or clearer, just unstretched.
+
+Most of the vanilla Morrowind videos will be replaced with much better versions shortly, but this is pretty much the only option for replacing the Bloodmoon videos on the vanilla game engine (i.e. not OpenMW).
+
+The next few mods on this list will replace the three main Morrowind videos (intro, Cavern of the Incarnate, and ending videos) with beautiful, high-resolution versions. But, if you don't want to install those mods for whatever reason, I would at least recommend installing [HD Cinematics](https://www.nexusmods.com/morrowind/mods/46482), which includes upscaled versions of the vanilla videos. The main files on that page only work with OpenMW, but the 720p file (under "old files") works with the vanilla engine. Unfortunately it doesn't cover the Bloodmoon videos, but it does replace the main Morrowind videos. (If you plan to install the next few mods on this list, then you don't really need HD Cinematics - the only video that would end up being affected is the credits video.)
+
 ## [HD Intro Cinematic](https://www.nexusmods.com/morrowind/mods/39329)
 
 This mod replaces the Morrowind intro video (the one that plays when you start a new game, where Azura tells you that you've been chosen) with a higher quality, much better looking version.
@@ -4393,6 +4401,7 @@ Widescreen Splash Additions
 Crosshair Pack II
 Alternate Enchanted Item Icons
 Ultimate Icons Replacer
+Unstretched Videos
 HD Intro Cinematic
 Cutscenes Revamped - Cavern of the Incarnate
 Prince of Moonshadow
