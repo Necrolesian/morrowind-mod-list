@@ -1233,11 +1233,13 @@ This causes the icon bar to not display when the weight and value of an object a
 
 ## [Smart Journal](https://www.nexusmods.com/morrowind/mods/47492)
 
-This mod implements a number of convenience improvements to the journal. In particular the journal no longer displays the date header for every entry, only when the date changes or at the top of each page. It also no longer displays links that are not whole words, but only inside of longer words. These behaviors and more are configurable in the MCM.
+This mod implements a number of convenience improvements to the journal. When downloading the mod, do not get the most recent version. Instead, grab **version 1.03** under "old files". The latest version of the mod messes with the messagebox that displays when your journal updates, even if you turn that feature off.
 
-By default the mod also changes your quest list to add a prefix to each quest name (which by default is the ID number of the mod the quest is from). It also displays a "hint" whenever you mouse over each quest name, which can show the quest ID and the name of the mod it's from. Plus it changes the messagebox that appears when your journal is updated to include the name of the associated quest.
+Smart Journal implements several desireable features. The journal no longer displays the date header for every entry, only when the date changes or at the top of each page. It also no longer displays links that are not whole words, but only inside of longer words. These behaviors and more are configurable in the MCM.
 
-I find the above behavior immersion-breaking; it can also cause a short delay when loading the quest list. Fortunately this behavior can be disabled in the MCM. The top three options in the MCM - clear topics with no entries, collapse dates, skip links inside words - should be on, and everything else should be disabled, including the quest prefix dropdown. (It might be useful to enable some of the other features when troubleshooting quests.)
+By default the mod also changes your quest list to add a prefix to each quest name (which by default is the ID number of the mod the quest is from). It also displays a "hint" whenever you mouse over each quest name, which can show the quest ID and the name of the mod it's from.
+
+I find the above behavior immersion-breaking; it can also cause a short delay when loading the quest list. Fortunately this behavior can be disabled in the MCM. The top three options in the MCM - clear topics with no entries, collapse dates, skip links inside words - should be on, and everything else should be disabled. (It might be useful to enable some of the other features when troubleshooting quests.)
 
 ## [Hot Quests](https://www.nexusmods.com/morrowind/mods/48976)
 
