@@ -4650,6 +4650,7 @@ Naked and Alone
 Worth Its Weight
 Skills Module
 Ashfall
+Ashfall BTBGI Patch
 No Combat Menu
 No Console
 One Life to Live
