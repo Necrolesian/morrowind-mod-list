@@ -1510,11 +1510,11 @@ Morrowind's vanilla cutscene videos look like garbage, especially compared to th
 
 Note that these mods require the "hi-def cutscene support" feature of Morrowind Code Patch; otherwise the game will crash when trying to play them.
 
-## [Unstretched Videos](https://www.nexusmods.com/morrowind/mods/50482)
+## Unstretched Videos
 
-This first video replacer just takes all of the vanilla game videos and puts black bars on the sides of them, so they won't appear stretched when playing with a widescreen (16:9) monitor. The videos aren't upscaled or reworked otherwise - they don't look any sharper or clearer, just unstretched.
+The first issue to address with videos is the problem of stretching. The vanilla game videos were meant to display at a standard (4:3) aspect ratio. When playing at a different aspect ratio (e.g. with a widescreen monitor), the videos will be stretched to fit the screen, which looks awful.
 
-Most of the vanilla Morrowind videos will be replaced with much better versions shortly, but this is pretty much the only option for replacing the Bloodmoon videos on the vanilla game engine (i.e. not OpenMW).
+To fix this, go into the "Morrowind Script Extender" options in the Mod Config Menu, and enable the "letterbox movies" option. This will place black bars on the sides of the 4:3 videos so they'll display as intended, no matter what aspect ratio you're playing at. Most of the Morrowind videos will be replaced with widescreen versions below, but this is a big improvement for the Bloodmoon videos.
 
 The next few mods on this list will replace the three main Morrowind videos (intro, Cavern of the Incarnate, and ending videos) with beautiful, high-resolution versions. But, if you don't want to install those mods for whatever reason, I would at least recommend installing [HD Cinematics](https://www.nexusmods.com/morrowind/mods/46482), which includes upscaled versions of the vanilla videos. The main files on that page only work with OpenMW, but the 720p file (under "old files") works with the vanilla engine. Unfortunately it doesn't cover the Bloodmoon videos, but it does replace the main Morrowind videos. (If you plan to install the next few mods on this list, then you don't really need HD Cinematics - the only video that would end up being affected is the credits video.)
 
@@ -4401,7 +4401,6 @@ Widescreen Splash Additions
 Crosshair Pack II
 Alternate Enchanted Item Icons
 Ultimate Icons Replacer
-Unstretched Videos
 HD Intro Cinematic
 Cutscenes Revamped - Cavern of the Incarnate
 Prince of Moonshadow
