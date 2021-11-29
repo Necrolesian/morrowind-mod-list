@@ -1484,7 +1484,7 @@ These splash screens are basically higher-quality, widescreen versions of the va
 
 The "additions" download linked above provides yet three more splash screens, higher quality versions of three cut vanilla splash screens done in the same style. They fit in very well.
 
-Alternative: If you prefer a more "pure vanilla" look, there's a mod called [Unstretched Splash Screens](https://www.nexusmods.com/morrowind/mods/45800), which is just the vanilla splash screens (plus a few cut ones) with black bars on the side so they won't be stretched on a widescreen monitor. It also includes an unstretched version of the vanilla main menu texture.
+Alternative: If you prefer a more "pure vanilla" look, there's a mod called [Really Unstretched Splash Screens](https://www.dropbox.com/s/hc5765qqwjc21yf/Really%20Unstretched%20Splash%20Screens.7z?dl=0), which is just the vanilla splash screens (plus a few cut ones) with black bars on the side so they won't be stretched on a widescreen monitor. It also includes an unstretched version of the vanilla main menu texture.
 
 ## [Crosshair Pack II](http://mw.modhistory.com/download-56-1312)
 
