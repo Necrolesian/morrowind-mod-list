@@ -1869,7 +1869,7 @@ This is another override feature, this time for light sources rather than ambien
 
 This is actually a pretty nifty feature, but there's one issue with it that prevents me from recommending it. In addition to changing the radius, time and color values of light sources, TLAD (including the Necro Edit version) also adjusts a few other light attributes, including the weight and value of many carryable light sources, in ways that make a lot of sense. LTBD's light source override list unfortunately omits these changes.
 
-I think some of these adjustments are pretty important, so I recommend turning this feature **off** and instead using the next mod on this list to adjust light color and radius. (It can also remove the flicker effect from many lights, and we'll need to use a plugin for interior daylight - see the next mod on this list for discussion about that.)
+I think some of these adjustments are pretty important, so I recommend turning this feature **off** and instead using the next mod on this list to adjust light color and radius.
 
 - Use True Skyrimized Torches overrides for lights that can be carried
 
@@ -1889,7 +1889,7 @@ If you're using both the "disable lights without a mesh" and "disable only black
 
 By default, the blacklist contains only two lights that are ubiquitous in exteriors around Vvardenfell's coasts. I blacklist most unnatural lights (everything not mentioned below), but there are certain lights or categories of lights that you might not want to blacklist:
 
-**Mod-added lights**: A few mods on this list, such as Glowing Atronachs and TLAD's interior daylight plugin, add meshless lights, and these lights will appear on the list of available lights after you install those mods. You probably won't want to blacklist any of the mod-added lights.
+**Mod-added lights**: A few mods on this list, such as Glowing Atronachs, add meshless lights, and these lights will appear on the list of available lights after you install those mods. You probably won't want to blacklist any of the mod-added lights.
 
 **Anything starting with "bc mushroom"**: These lights are responsible for the glow surrounding the mushrooms in the Bitter Coast (and other locations where these plants are). I very much like the glow-in-the-dark mushrooms (in fact later we'll install a whole mod, Graphic Herbalism Lighting, relating to them), so I don't blacklist these lights.
 
@@ -1915,9 +1915,9 @@ Finally, there's one more thing about this mod you might want to change. LTBD us
 
 ## True Lights and Darkness - Necro Edit ([Nexus](https://www.nexusmods.com/morrowind/mods/47133), [Moddinghall](https://mw.moddinghall.com/file/119-true-lights-and-darkness-necro-edit))
 
-Let There Be Darkness, which we just installed, is in many respects a replacement for this older lighting overhaul (as we've seen, it includes options to use this mod's ambient light values for interior cells and its light source values). However, LTBD lacks a couple features of TLAD which we want.
+Let There Be Darkness, which we just installed, is in many respects a replacement for this older lighting overhaul (as we've seen, it includes options to use this mod's ambient light values for interior cells and its light source values). However, LTBD lacks a couple features of TLAD.
 
-In particular, while it includes overrides for TLAD's radius/time/color values of light sources (without which interiors would be very bland and *too* dark), the overrides lack TLAD's changes to several other attributes of many lights, including weight and value. Many of these changes make a lot of sense and I want to keep them. LTBD also lacks TLAD's gorgeous interior daylight, which I can't do without. Therefore, it's necessary to install a version of TLAD.
+In particular, while it includes overrides for TLAD's radius/time/color values of light sources (without which interiors would be very bland and *too* dark), the overrides lack TLAD's changes to several other attributes of many lights, including weight and value. Many of these changes make a lot of sense and I want to keep them. Therefore, it's necessary to install a version of TLAD.
 
 True Lights and Darkness is a lighting overhaul that does a number of things to improve Morrowind's lighting. It significantly lowers the ambient light values of almost all interior cells (ambient light in dungeons such as caves is lowered to zero), which makes dark areas genuinely dark. It increases the radius of most light sources, increases the time that many lights last before burning out, and makes a few other tweaks. And it adjusts the color values of some light sources for (in some cases) improved appearance.
 
@@ -1925,7 +1925,7 @@ With the right lighting settings in MGE XE (see below), especially per-pixel lig
 
 The "Necro Edit" archive linked above contains three sub-packages. One contains two different modified "full" versions of the TLAD plugin. These include TLAD's ambient light edits, which aren't necessary because that's handled by LTBD. Another sub-package contains several modular plugins, two for interior daylight and four more that are different versions of TLAD's light source edits. The third sub-package contains an MWSE mod that does basically the same thing as the "TLAD Lights" modular plugins, but with no plugin required and in a much more customizable way.
 
-First, definitely install the MWSE TLAD Lights sub-package. This MWSE mod is basically a more complete and customizable version of LTBD's TLAD light source overrides. In the MCM, there are several dropdowns, one for each of the affected light attributes (radius, time, color, name, weight, value, and so on). You can choose between vanilla and TLAD values for these attributes, and in some cases can also choose "Necro edit" or "logical flicker" values. The descriptions in the MCM tell you basically what you need to know, but I'll comment briefly on light colors, flicker settings and meshes here.
+We only need the MWSE TLAD Lights sub-package, which you should definitely install. This MWSE mod is basically a more complete and customizable version of LTBD's TLAD light source overrides. In the MCM, there are several dropdowns, one for each of the affected light attributes (radius, time, color, name, weight, value, and so on). You can choose between vanilla and TLAD values for these attributes, and in some cases can also choose "Necro edit" or "logical flicker" values. The descriptions in the MCM tell you basically what you need to know, but I'll comment briefly on light colors, flicker settings and meshes here.
 
 TLAD makes a number of changes to the colors of lights, and some of these changes are quite radical. The original TLAD takes a lot of light sources like candles and changes their color from normal candlelight color to colors like an eerie purple, deep blue or ominous red. These changes can substantially alter the mood of many areas. They're also rather unrealistic and not to my tastes. The "Necro edit" colors revert TLAD's more radical color changes, while leaving more minor color tweaks and "lightness" changes intact.
 
@@ -1935,11 +1935,7 @@ The "mesh" option in the MCM can be used to replicate the functionality of the "
 
 My recommendation is to choose "Necro edit" settings for names, colors and flicker settings, "Glowing Flames" for meshes, and "TLAD" for everything else (though if you plan to use The Midnight Oil, you might want to choose vanilla time values, to allow one of the features of that mod to be more useful). However, one of the main purposes of this mod is to be customizable, so configure the mod however you prefer (though if you don't at least enable TLAD's light radius changes, you're likely to find light sources inadequate with LTBD's TLAD ambient lighting overrides).
 
-That leaves TLAD's interior daylight, which is not implemented in MWSE and which requires one of the "TLAD Daylight" plugins in the modular plugins subpackage. TLAD's interior daylight allows sunlight to shine through windows in appropriate interiors, depending on weather and time of day. It's very beautiful and immersive, and I highly recommend it.
-
-If for some reason you don't want the interior daylight, you should (1) have your head examined, and (2) not bother with the modular plugins sub-package.
-
-There are two versions of the TLAD Daylight plugin, and you should only use one. The "No Vivec Plazas" version omits the interior daylight in the Vivec plaza cells, and is intended for use with a mod called Glass Domes of Vivec, which will substantially increase lighting levels in the plazas. I recommend Glass Domes of Vivec further down on this list, so go ahead and use the No Vivec Plazas plugin. Only use the regular daylight plugin if you don't intend to use Glass Domes of Vivec.
+We don't need to install the modular plugins sub-package; it contains plugins implementing interior daylight, but Glow in the Dahrk (see below) includes its own much superior interior daylight implemented via MWSE-lua, so TLAD's interior daylight is unneeded.
 
 The original TLAD readme lists some recommended changes to the lighting settings in Morrowind.ini. If you're following this list, your settings should already be similar, except that linear lights are disabled, because they're useless with per pixel lighting. If you haven't done this already, with PPL enabled, I recommend lighting coefficients of 2.619, 0.0 and 0.382 for quadratic, linear and constant, respectively (set these in MGE XE's in-game tab). If you're not using PPL, I suggest basically the same settings but with linear at 1.0 (the same as TLAD recommends).
 
@@ -2537,15 +2533,15 @@ As you can probably glean from the name, this mod includes improved crate textur
 
 ## [Glow in the Dahrk](https://www.nexusmods.com/morrowind/mods/45886)
 
-Glow in the Dahrk makes many of the game's windows glow at night, as though lanterns are lit inside. It's the successor to various other mods like Windows Glow and Illuminated Windows that do basically the same thing.
+Glow in the Dahrk makes many of the game's windows glow at night, as though lanterns are lit inside. It also implements gorgeous interior daylight, allowing sunlight to shine through windows in appropriate interiors, depending on weather and time of day. It's the successor to various other mods like Windows Glow and Illuminated Windows that do basically the same thing (sans interior daylight).
 
 The older mods implement their changes by editing cells and placing light sources around windows, and so any mod that changes the buildings can conflict. GITD works its magic with a combination of MWSE-lua scripts and special meshes that include an alternate version for nighttime. Therefore GITD accomplishes its objective in a much cleaner way than the old mods, with much lower overhead in terms of performance.
 
 Install order is important here. Some of the mods we've already installed include different versions of the same meshes, and we want GITD to take precedence. A couple mods later in this list also replace some of these meshes, but those mods have GITD patches, so that's okay.
 
-The archive includes a number of sub-packages. The Core sub-package is obviously required for the mod to function. Of the optional sub-packages, I recommend only the Hi Res Window Texture Replacer and Interior Sunrays (the sunrays are a matter of personal taste, but I think they look very nice).
+The archive includes a number of sub-packages. The Core sub-package is obviously required for the mod to function. Of the optional sub-packages, I recommend only the Hi Res Window Texture Replacer and Nord Glass Windows.
 
-GITD can be configured in various ways in the MCM, but the default settings are just fine, and I see no reason to change them.
+GITD can be configured in various ways in the MCM. The only change I recommend making is to enable the "stagger transitions" option; otherwise, all windows will begin to glow at the same time at night. You can also disable interior sunrays or interior daylight, though I don't recommend it - anybody who doesn't want GITD's interior daylight should have their head examined.
 
 ## [Graphic Herbalism](https://www.nexusmods.com/morrowind/mods/46599)
 
@@ -2828,7 +2824,7 @@ In other words, the install order is: GITD, GH, Project Atlas, GH Patches and Re
 
 One of the atlas meshes in the core sub-package is borked and needs to be deleted before installation: meshes\x\ex_imp_plat_01.nif. If this mesh is present, you'll end up stuck underwater when fast traveling from Raven Rock to Fort Frostmoth.
 
-The "core" sub-package is obviously required. Install only one of the GITD patch sub-packages, depending on whether or not you're using GITD's interior sunrays.
+The "core" sub-package is obviously required. Install only one of the GITD patch sub-packages, and it should be the interior sunrays one (with the current version of GITD, interior sunrays can be disabled in the MCM if you don't prefer them).
 
 If you installed the smoothed BC mushroom meshes from Graphic Herbalism (which you should have if you have any sense), then install both the BC Mushrooms Smoothed sub-package and the Smoothed Glowing BC patch sub-package. (If for some reason you didn't install smoothed mushrooms, then just install the Normal Glowing BC patch sub-package.) I also suggest the smoothed redware and urns sub-packages.
 
@@ -2906,9 +2902,7 @@ Technically, the mod checks the "behaves as exterior" flag for the plazas (simil
 
 The installation process is somewhat complicated, so pay attention. First, this mod requires the presence of a Vivec/Velothi atlas texture, because its meshes depend on it. This is why we saved this until after we installed our atlas mods.
 
-Second, you should be using the "No Vivec Plazas" version of the TLAD interior daylight plugin, not the regular version of that plugin. With this mod, there's no need for TLAD's interior daylight in the plazas, and using it could cause problems.
-
-Third, the Moonrain Edition fixes quite a few issues with the original, but it requires the original to be installed. So, install the original version of the mod first. You only need the assets from the original; don't use the plugin.
+Second, the Moonrain Edition fixes quite a few issues with the original, but it requires the original to be installed. So, install the original version of the mod first. You only need the assets from the original; don't use the plugin.
 
 Next, install Moonrain Edition. The archive includes quite a few sub-packages. The "core" sub-package is required - it overwrites some, but not all, of the assets of the original mod.
 
@@ -4746,7 +4740,6 @@ EcoAdjCrime (Necro Edit).esp
 TheMidnightOil.ESP
 Ashfall.esp
 Waterfall Lights Remover.esp
-TLAD Daylight - No Vivec Plazas.esp
 ```
 </details>
 
