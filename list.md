@@ -2219,7 +2219,7 @@ Install only the Core Assets sub-package from this mod. Do not install the MWSE 
 
 ## [Melchior's Magnificent Manuscripts](https://www.nexusmods.com/morrowind/mods/45626)
 
-The main portion of this mod is mostly a mesh replacer for the vanilla books, with smoother, optimized meshes. The main reason we're downloading this mod, though, is for the optional sub-package, a patch for Daleth's Book Jackets which replaces Daleth's book meshes with better-looking and more optimized versions (though this will only be visible in-game for those meshes which the next mod on this list uses).
+The main portion of this mod is mostly a mesh replacer for the vanilla books, with smoother, optimized meshes. The main reason we're downloading this mod, though, is for one of the optional sub-packages, a patch for Daleth's Book Jackets which replaces Daleth's book meshes with better-looking and more optimized versions (though this will only be visible in-game for those meshes which the next mod on this list uses).
 
 ## [Enchanted Library](https://www.nexusmods.com/morrowind/mods/48776)
 
