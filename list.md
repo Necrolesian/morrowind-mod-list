@@ -1740,7 +1740,7 @@ Second, delete the mge3 directory (Wrye Mash can't install that directory anyway
 
 Finally, you can also delete the MWSE directory containing the Weather Adjuster config file, because we'll be installing a different one in a bit. All we need to install from this archive are the shaders.
 
-## [MGE XE Shader Pack](https://drive.google.com/file/d/1c94ZR8NLAOIit0NXsupCZBK0Wv7oPD9r/view?usp=sharing)
+## [MGE XE Shader Pack](https://www.dropbox.com/s/egtk0osv4vrgar2/MGE%20XE%20Shader%20Pack%202021-11-26.7z?dl=1)
 
 This is another shader pack, like the above. There's one change we need to make to the archive before installing. In the core sub-package, *delete* the MWSE directory. Now install only the core sub-package; ignore the others.
 
