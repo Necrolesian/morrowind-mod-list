@@ -2752,7 +2752,7 @@ Texture replacer for the various "Dwemer schematics" items, like Dwemer Airship 
 
 Contains very high quality textures for a number of "clutter" items, like bottles, pots and redware. Also retextures baskets, which haven't been touched since Intelligent Textures. We've actually already installed an atlased version of this mod's silverware textures along with Silverware Repolished above; this mod includes loose versions of those textures, for the meshes that still use them.
 
-Pick up the main 1k download (not the "modular" version). For now, install only the main ("full") sub-package. I can't recommend Diverse Cloth, and the atlas textures will need to come later in the install order, after we've installed the required atlas meshes.
+Pick up the main 1k download (not the "modular" version). We're only interested in the "full" sub-package (I can't recommend Diverse Cloth), but before installing it, pull the atlas textures (in Textures\ATL) out and create a separate installer for them. These atlas textures will need to come later in the install order, after we've installed the required atlas meshes. For now, just install the "full" sub-package, minus the atlas textures.
 
 ## [Long Live the Plates](https://www.nexusmods.com/morrowind/mods/43935)
 
