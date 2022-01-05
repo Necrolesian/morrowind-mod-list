@@ -1596,7 +1596,7 @@ We'll also need to install the Project Atlas patch, but not yet. It will need to
 
 We'll be installing Imperial Ordo Arkitektora, but the one fixed mesh for it in this archive would be overwritten by another mod later that also fixes it, so there's no need to install the patch. We'll also be installing Hlaalu Arkitektora, though it won't be our primary Hlaalu retexture; we'll really just install it for its door textures. But the included mesh for it would be overwritten by our main Hlaalu retexture mod, so there's no point in installing that one now either.
 
-## [RR - Better Meshes](https://www.nexusmods.com/morrowind/mods/43266)
+## [RR - Better Meshes](https://www.nexusmods.com/morrowind/mods/43266) ([Fix](https://www.nexusmods.com/morrowind/mods/46026))
 
 This one replaces meshes for quite a lot of the small, miscellaneous objects in the game.
 
@@ -1607,6 +1607,8 @@ Unfortunately, the "main files" sub-package includes a number of meshes that use
 First, in the Meshes\i subdirectory, delete the files in_velothismall_fresco_01 and 02. In Meshes\m, do the same with all 43 of the meshes that start with "text". Finally, delete the Textures directory.
 
 With that done, go ahead and install the archive. Just install the "Main Files" sub-package (now that you've removed the offending book and fresco meshes from it). The "Optimized Melchior Dunmer Lanterns" sub-package is not needed; it's based on an earlier version of Melchior's mod, and we'll be installing the most recent version later. None of the other optional sub-packages is anything I'd recommend.
+
+In addition, go ahead and install the "fix" linked above, which fixes issues related to item locations. The link is to "Qwerty's Various Graphics," another small mod compilation. Later, we'll also need "Properly Smoothed Meshes - Flask Fix" and the blood replacer from this page, so you might want to go ahead and grab them now.
 
 ## [Glowing Flames](https://www.nexusmods.com/morrowind/mods/46124)
 
@@ -1622,7 +1624,7 @@ Replaces meshes for many miscellaneous objects, plus a few other things. Improve
 
 The archive has several optional sub-packages: glowing candles, a few misc objects, and optional textures. Beyond the core sub-package, I only recommend the glowing candles and the barrels, but the others are mostly a matter of personal taste.
 
-You'll also need to install the "flask fix" linked above, to fix an issue where a particular flask is too low and thus buried in the table or whatever surface it's on. The link is to "Various Retextures and Replacers," another small mod compilation. We'll also eventually need the blood replacer from this page, so you might want to go ahead and grab it now.
+You'll also need to install the "flask fix" linked above, to fix an issue where a particular flask is too low and thus buried in the table or whatever surface it's on. You probably picked this up earlier.
 
 ## [Dwemer Mesh Improvement](https://www.nexusmods.com/morrowind/mods/43101)
 
@@ -2716,11 +2718,11 @@ There are three versions available on the download page: MQ, HQ and UHQ. The UHQ
 
 Includes retextures of two things (which might not qualify it as "various"): soulgems and water pools. These are split into two separate files on the downloads page, and you should install both. The soulgems download contains an "Extras" directory that can safely be deleted, as there's nothing worth our time in there.
 
-## [Various Retextures and Replacers - Blood](https://www.nexusmods.com/morrowind/mods/46026)
+## [Qwerty's Various Graphics - Blood](https://www.nexusmods.com/morrowind/mods/46026)
 
-This is a completely different "Various Retextures" than the last mod, and it's a bit more worthy of the name, as this one covers *11* things (but only two of them are of interest to us).
+This mod page is a bit more worthy of the word "various" in its name, as this one covers *12* things (but only three of them are of interest to us).
 
-The "various" retextures are split up into 11 separate files on the downloads page. Go ahead and nab the Blood download if you haven't already. It's a high quality blood retexture, without being over the top. You might have already picked this up earlier - you should have already installed the "flask fix."
+The "various" retextures are split up into 12 separate files on the downloads page. Go ahead and nab the Blood download if you haven't already. It's a high quality blood retexture, without being over the top. You might have already picked this up earlier - you should have already installed the "Flask Fix" and "RR Better Meshes Fix".
 
 ## [Skeleton and Metal Sparks Blood Retexture](https://www.nexusmods.com/morrowind/mods/43359)
 
