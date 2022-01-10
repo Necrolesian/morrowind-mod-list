@@ -650,7 +650,7 @@ There are lots of things you can do with tes3cmd (type "tes3cmd help" on the com
 
 We'll use these functions later to make sure our plugins are clean (quite a few mods aren't), and create our multipatch.
 
-## [tes3merge](https://www.nexusmods.com/morrowind/mods/46870)
+## [tes3merge](https://www.nexusmods.com/morrowind/mods/46870) ([required .NET runtime](https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe))
 
 tes3merge is a utility that can fix many conflicts between mods in your load order. In many cases, two or more plugins in your load order will edit different aspects of the same object. For example, one plugin might change an NPC's name, a second plugin might edit some of that NPC's skills, and a third plugin might add items to the NPC's inventory. Generally, only the changes made by the last of these plugins in your load order will be seen in-game, while the changes made by the first two plugins will be lost.
 
@@ -661,6 +661,8 @@ Only where two or more plugins edit the same specific aspects of the same object
 Merged Objects can fix many, many conflicts between mods. It should be installed somewhere in your Morrowind directory so it can detect your Morrowind install; create a directory called "tes3merge" in your main Morrowind directory, and put it there.
 
 tes3merge is a command line utility, but it can be run by simply double clicking on the executable. Don't do it now; we'll run tes3merge toward the end of this process.
+
+Finally, the second link above is to the Microsoft .NET 6.0 runtime which is required by the latest version of tes3merge. Go ahead and download/install it as well, unless you're sure you already have it.
 
 ## tes3view ([Github](https://github.com/TES5Edit/TES5Edit/releases), [Discord](https://cdn.discordapp.com/attachments/518048160526893057/907953273363898368/xEdit_4.1.4_EXTREMELY_EXPERIMENTAL.7z))
 
