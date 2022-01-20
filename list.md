@@ -4652,7 +4652,7 @@ Locks and Traps Detection
 Stealth Improved
 MAB0's Foundations
 MAB0's Manipulated
-Controlled Consumption MMC Edit
+Controlled Consumption
 Silver Tongue
 Putting Power in Willpower
 DragonDoor
