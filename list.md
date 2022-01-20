@@ -3661,7 +3661,7 @@ The above link is to "Sigourn's Misc Mods and Patches", which is mostly a collec
 
 - Ownership Overhaul Patches
 - MDMD - More Deadly Morrowind Denizens Patches
-- Controlled Consumption (MMC Edit)
+- Controlled Consumption
 
 ## [No Disease Labels](https://www.nexusmods.com/morrowind/mods/48295)
 
@@ -4016,9 +4016,24 @@ This is an anti-exploit mod that restricts how often you can drink a potion or c
 
 This obviously prevents a number of potential exploits, such as stacking lots of restore health potions until you can survive anything, or fortify strength potions until you can kill Vivec with one blow. You can still swill a fortification potion before a fight, or a healing potion to heal up after one, and you can still eat an ingredient raw to give yourself an effect that you lack a potion for, but you can no longer use alchemy to make yourself a god.
 
-The link above is to "Sigourn's Misc Mods and Patches," from which you should have already picked up this mod. The version of Controlled Consumption on Sigourn's page is the "MMC Edit" version, which also affects ingredient consumption (the [original version](https://www.nexusmods.com/morrowind/mods/45624) of the mod only affects potions).
+The link above is to "Sigourn's Misc Mods and Patches," from which you should have already picked up this mod. The version of Controlled Consumption on Sigourn's page is a modified version which also affects ingredient consumption (the [original version](https://www.nexusmods.com/morrowind/mods/45624) of the mod only affects potions).
 
 In the MCM, there are three "modules" you can choose from which determine how the mod works (in addition to a fourth module that just disables the mod). "Vanilla NPC Style" implements a five-second cooldown time between potions or ingredients (i.e. after you consume a potion/ingredient, you must wait at least five seconds, not counting time with the menu open, before consuming the next one). "Oblivion Style" does not have a universal cooldown time, but prevents you from being under the effect of more than four potions or ingredients at once. "Vanilla NPC Style (Necro Edit)" is identical to Vanilla NPC Style, except that it fixes an issue that can arise when the timescale changes (which it will if you're using Dynamic Timescale), and is the module I recommend.
+
+As of version 1.3.2, there is one bug that requires editing the code to fix. The mod displays an icon when potion/ingredient consumption is blocked, but the icon is not actually visible (unless you're using a mod called [Seph's HUD Customizer](https://www.nexusmods.com/morrowind/mods/50588), which is not on this list). To fix this, open up MWSE\mods\Controlled Consumption\main.lua in a text editor. Find this line:
+
+```
+alchemyImage.scaleMode = true
+```
+
+Immediately below this line, insert the following:
+
+```
+alchemyImage.height = 32
+alchemyImage.width = 32
+```
+
+This causes the icon to be visible as intended, whether you're using Seph's HUD Customizer or not.
 
 ## [Silver Tongue](https://www.nexusmods.com/morrowind/mods/49086)
 
