@@ -3927,8 +3927,6 @@ This mod introduces a number of refinements to Morrowind's stealth system, inclu
 
 With default settings, the important differences for our purposes are:
 
-- How close you are to a light source is taken into account.
-
 - Stealth checks happen every one second instead of every five.
 
 - Chameleon and Invisibility provide less of a bonus to stealth. In vanilla, being invisible guarantees that no one can possibly detect you, and chameleon is very overpowered. Now both effects provide significant bonuses but are no longer guarantees.
@@ -3943,54 +3941,7 @@ With default settings, the important differences for our purposes are:
 
 Overall this mod represents a significant improvement to the vanilla stealth system, making it now reasonably (but not overly) difficult to sneak around without being seen.
 
-Just about every aspect of the mod is configurable in the MCM, and I recommend making a few changes. First, I turn off the "enable light-based stealth" and "show light bar" options. The light-based stealth feature isn't actually based on how much light is illuminating you, but on how close you are to any light source, including those that aren't actually emitting any light.
-
-Second, I change "percentage effectiveness of chameleon" from 50 to 25. This means only 1/4 (instead of 1/2) of your chameleon magnitude will be added as a bonus on your stealth check. It also means invisibility will provide a slightly higher bonus than 100% chameleon, with the downside of going away as soon as you do anything except move.
-
-Finally, there's a few additional tweaks I like to make to this mod, but doing so requires editing the code to change three things that I think are less than ideal:
-
-1. Chameleon magnitude beyond 100 contributes to your sneak bonus, so you can still stack on chameleon above normal magnitudes to get a really high bonus. I think chameleon magnitude should be capped at 100 for the purpose of calculating sneak bonus.
-
-2. If you have chameleon and invisibility at the same time, you get both bonuses. I think you should get only whichever bonus is higher.
-
-If you agree with me about the above two points, open up MWSE\mods\stealth\main.lua in a text editor. Find this part:
-
-```
--- Add on chameleon modifier.
-playerScore = playerScore + (config.chameleonMultiplier/100 * macp.chameleon) --chameleon only counts for half
-
--- Invisibility bonus, defaults to 0 but can be manually restored
-if (macp.invisibility > 0) then
-    playerScore = playerScore + config.invisibilityBonus
-end
-```
-
-Delete the above and replace it with the following:
-
-```
-local effectiveChameleonMagnitude = math.min(macp.chameleon, 100)
-local chameleonBonus = ( config.chameleonMultiplier / 100 ) * effectiveChameleonMagnitude
-local invisBonus = 0
-
-if macp.invisibility > 0 then
-    invisBonus = config.invisibilityBonus
-end
-
-local finalBonus = math.max(chameleonBonus, invisBonus)
-playerScore = playerScore + finalBonus
-```
-
-3. In addition to the above, there's one minor error in the code that causes the "NPC sneak bonus" slider in the MCM to not function. To fix it, in mcm.lua (not main.lua), find this line:
-
-```
-id = "npcSneakMultiplier",
-```
-
-and replace it with:
-
-```
-id = "npcSneakBonus",
-```
+Just about every aspect of the mod is configurable in the MCM, but I don't recommend making any changes. In particular, I can't recommend the "light-based stealth" option. That feature isn't actually based on how much light is illuminating you, but on how close you are to any light source, including those that aren't actually emitting any light.
 
 ## [MAB0's Foundations](https://www.nexusmods.com/morrowind/mods/47244)
 
