@@ -4020,21 +4020,6 @@ The link above is to "Sigourn's Misc Mods and Patches," from which you should ha
 
 In the MCM, there are three "modules" you can choose from which determine how the mod works (in addition to a fourth module that just disables the mod). "Vanilla NPC Style" implements a five-second cooldown time between potions or ingredients (i.e. after you consume a potion/ingredient, you must wait at least five seconds, not counting time with the menu open, before consuming the next one). "Oblivion Style" does not have a universal cooldown time, but prevents you from being under the effect of more than four potions or ingredients at once. "Vanilla NPC Style (Necro Edit)" is identical to Vanilla NPC Style, except that it fixes an issue that can arise when the timescale changes (which it will if you're using Dynamic Timescale), and is the module I recommend.
 
-As of version 1.3.2, there is one bug that requires editing the code to fix. The mod displays an icon when potion/ingredient consumption is blocked, but the icon is not actually visible (unless you're using a mod called [Seph's HUD Customizer](https://www.nexusmods.com/morrowind/mods/50588), which is not on this list). To fix this, open up MWSE\mods\Controlled Consumption\main.lua in a text editor. Find this line:
-
-```
-alchemyImage.scaleMode = true
-```
-
-Immediately below this line, insert the following:
-
-```
-alchemyImage.height = 32
-alchemyImage.width = 32
-```
-
-This causes the icon to be visible as intended, whether you're using Seph's HUD Customizer or not.
-
 ## [Silver Tongue](https://www.nexusmods.com/morrowind/mods/49086)
 
 This mod enhances the game's speechcraft/persuasion system in a number of ways. It basically does for speechcraft what Alchemical Knowledge does for alchemy.
