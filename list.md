@@ -3709,11 +3709,9 @@ This mod does for the Bloodmoon expansion content what the above mod does for Tr
 
 Enemies like wolves, bears, rieklings and so on are weaker, and most NPCs are no longer crazy high level. The Bloodmoon endgame is still very challenging, however.
 
-## [Beware the Sixth House](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Beware%20the%20Sixth%20House%20ESP%20Replacer.zip)
+## [Beware the Sixth House](https://www.nexusmods.com/morrowind/mods/46036)
 
 This finishes the job of the previous two mods by making Sixth House enemies much more powerful. The endgame Sixth House bosses are now the most powerful enemies in the game. You can also no longer easily swipe Keening without dealing with an Ash Vampire.
-
-The link is to a fixed version of the mod, from Sigourn, which incorporates numerous fixes from Patch for Purists.
 
 ## [More Deadly Morrowind Denizens](https://www.nexusmods.com/morrowind/mods/48745) ([Necro Edit](https://www.dropbox.com/s/x251dgzcfxkv0k5/MDMD%201.05%20Necro%20Edit.7z?dl=1))
 
