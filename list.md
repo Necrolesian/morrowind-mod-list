@@ -3681,15 +3681,13 @@ This mod addresses this issue by setting the ignore resist flag for enchanted we
 
 The mod also has an additional feature. Normally, when you attack an enemy that's immune to normal weapons with a cast-on-strike enchanted weapon without the flag set, the enchantment will be effective, even though the weapon swing itself will not be. However, this mod by default renders the enchantment also ineffective if the enemy fully resists the weapon it's attached to. This feature can be disabled in the MCM if you prefer, but I like it.
 
-## [Service Requirements Lore](https://www.nexusmods.com/morrowind/mods/45567) ([Sigourn Edit](https://cdn.discordapp.com/attachments/218457935846703104/796555612372467712/Service_Requirements_Lore_v1.4_Sigourn_Edit.zip))
+## [Service Requirements Revised](https://www.nexusmods.com/morrowind/mods/50715)
 
-The primary purpose of Service Requirements is to implement faction rank requirements in order to obtain services from members of a faction. In general, you will now have to be the same rank as the service provider in their faction to obtain services from them; otherwise they will refuse to provide services. There are a few exceptions where it makes sense.
+The primary purpose of Service Requirements is to implement faction rank requirements in order to obtain services from members of a faction. In general, you will now have to be at least close to the same rank as the service provider in their faction to obtain services from them; otherwise they will refuse to provide services. There are a few exceptions where it makes sense.
 
 This mod has a significant effect on difficulty. It can make it much harder to find NPCs who will provide you essential services, and it does a lot to change the atmosphere of the game to make you feel like more of an outsider. It also gives you a strong incentive to join and try to advance in at least one or two factions, so you're not left out in the cold when it comes to services.
 
-Definitely grab the "Sigourn Edit" version linked above, which fixes a few bugs and inconsistencies in the version on the Nexus.
-
-It's not necessary or desirable to use BTB's edited version of Service Requirements 1.4.3, because BTB's faction-related edits to that mod have been incorporated into the Necro Edit version of BTBGI above. Just use Service Requirements Lore (Sigourn Edit).
+It's not necessary or desirable to use BTB's edited version of Service Requirements 1.4.3, because BTB's faction-related edits to that mod have been incorporated into the Necro Edit version of BTBGI above. Just use Service Requirements Revised.
 
 ## [Tribunal Rebalance](https://www.nexusmods.com/morrowind/mods/45713)
 
@@ -4566,7 +4564,7 @@ No Rest Without Beds
 No Beds for the Diseased
 No Disease Labels
 Enchanted Weapon Resistance
-Service Requirements Lore
+Service Requirements Revised
 Tribunal Rebalance
 Bloodmoon Rebalance
 Beware the Sixth House
@@ -4662,7 +4660,7 @@ Divayth Fyr Puzzle Fixed.ESP
 The Dream is the Door.ESP
 Bloated Morrowind Magnified.esp
 Reduced_Forward_Jump.ESP
-Service Requirements Lore.esp
+Service Requirements Revised.esp
 Naked and Alone.esp
 Better Character Classes.esp
 Glass Domes of Vivec_atmospheric arena.esp
