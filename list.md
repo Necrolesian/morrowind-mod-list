@@ -3614,7 +3614,7 @@ The readme includes detailed comparisons between vanilla, BTBGI and this mod, an
 
 This mod makes a number of changes to the game in order to prevent exploits or make it more difficult to get really nice stuff. It makes some enemies guarding aforementioned nice stuff tougher, plus adds some new guards and other enemies, replaces some of that nice stuff with less nice stuff, and makes a few other changes. See the readme for a complete list.
 
-The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive contains a number of sub-packages, but right now we only need Anti-Cheese. (You might end up installing the Ashfall patch later, depending on your mod choices. The Enhanced Detection patch is for the full version of ED; it's not needed with the Less Lite version.)
+The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive contains a number of sub-packages, but right now we only need Anti-Cheese. (The Enhanced Detection patch is for the full version of ED; it's not needed with the Less Lite version.)
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
@@ -3781,6 +3781,10 @@ BTBGI and MDMD's creatures add-on make conflicting edits to quite a few creature
 
 There are actually two versions of this patch. Use the regular version, unless you're using the "creature buffs" plugin from BTBGI, in which case use the creature buffs patch instead.
 
+## [More Sigourn Patches](https://www.nexusmods.com/morrowind/mods/50308)
+
+The link above is to Sigourn's "BTBGI Necro Edit Tweaked and Patches", which you should have already downloaded for Morrowind Anti-Cheese. There are a couple additional patches we want to install from this archive. Install the Mort's rebalance series patch and the Tribunal Rebalance MAC patch. These patches should both come after Mort's rebalance mods (Tribunal Rebalance, Bloodmoon Rebalance, and Beware the Sixth House) in the load order.
+
 ## [Alvazir's Various Patches](https://www.nexusmods.com/morrowind/mods/48955)
 
 This page is a collection of many (many) patches and tweaks. The file we're mainly looking for on this page is "BTBGI Necro Edit Modular Patch", which is itself a collection of many (many) patches for BTBGI and other mods, plus a few tweaks intended for use with BTBGI. However, also pick up the Bloodmoon Rebalance PFP Patch.
@@ -3790,24 +3794,6 @@ There are only a few plugins we're interested in here. The others either are pat
 ### Better Clothes Complete and Better Robes Patches
 
 These two patches are in the "Various - Modular" sub-package. Both patches should load after both BTBGI and Better Clothes/Robes.
-
-### Tribunal Rebalance Patch
-
-This one is also in the "Various - Modular" sub-package. However, we'll want to remove a few things from the plugin first. Open up the patch in Enchanted Editor, and *delete* the following from the plugin:
-
-- All the armor records. The patch makes balance decisions here that I don't agree with. Just let tes3merge take care of it.
-
-- The NPC record. King Helseth is also affected by a couple other mods, and tes3merge will be needed for him regardless.
-
-Only the two weapon records (Goblin Club and Goblin Sword) should remain in the plugin.
-
-The patch must load after Tribunal Rebalance (which should load after BTBGI).
-
-### Bloodmoon Rebalance and Beware the Sixth House Patches
-
-These are in "Various - Modular" as well. There are no problems with either of them - indeed the Beware the Sixth House patch fixes a couple of mistakes in that mod.
-
-Both patches should load after their respective mods (which themselves should load after BTBGI).
 
 ### More Meaningful Encumbrance
 
@@ -4209,7 +4195,7 @@ There are a few special considerations for those following this list if you choo
 
 Ashfall changes the values of a few ingredients; in particular, it lowers the value of three meat ingredients that BTBGI raises. This patch raises them back to BTBGI values.
 
-You should have already downloaded this file for Morrowind Anti-Cheese, which we installed earlier. Create an installer for the Ashfall patch, and install after Ashfall in Wrye Mash.
+You should have already downloaded this file. Create a separate installer for the Ashfall patch, and install after Ashfall in Wrye Mash.
 
 However I do recommend tweaking the patch's main.lua first to change the value of Rat Meat from 10 to 15, as it is in BTBGI Necro Edit.
 
@@ -4558,7 +4544,7 @@ HardTrade
 Ownership Overhaul
 BTB's Game Improvements - Necro Edit
 Balanced Passive Races and Birthsigns
-Morrowind Anti-Cheese - BTBGI Compatibility
+BTBGI Necro Edit Tweaked and Patches
 Better Character Classes
 No Rest Without Beds
 No Beds for the Diseased
@@ -4682,9 +4668,8 @@ Bloodmoon Rebalance.esp
 Beware the Sixth House.ESP
 avp BTBGI-NE - Better Clothes Complete.esp
 avp BTBGI-NE - Better Robes.esp
-avp BTBGI-NE - tribunal rebalance.esp
-avp BTBGI-NE - Bloodmoon Rebalance.esp
-avp BTBGI-NE - Beware the Sixth House.esp
+Mort's Rebalance Series BTBGI Patch.ESP
+Tribunal Rebalance Morrowind Anti-Cheese Tweaked Patch.ESP
 avp BTBGI-NE - Game Settings - More Meaningful Encumbrance.esp
 avp BTBGI-NE - Game Settings - Suggested Tweaks.esp
 avp BTBGI-NE - Game Settings - BTBGI Adjustments.esp
@@ -4773,7 +4758,7 @@ Fortunately, it's easy to fix. To do so, open up Merged Objects.esp in Enchanted
 
 ### Ash Feast
 
-There's a spell called "Ash Feast" used by some Sixth House enemies. BTBGI changes the spell's effects and removes the autocalc flag. Beware the Sixth House changes the effects again and halves the magicka cost from 18 to 9, while keeping the autocalc flag. Alvazir's patch for the two mods restores the spell to the BTBGI version (which I think is best), but Merged Objects pulls in the lower magicka cost from Beware the Sixth House, which would mean the spell is only half as expensive as BTB intended.
+There's a spell called "Ash Feast" used by some Sixth House enemies. BTBGI changes the spell's effects and removes the autocalc flag. Beware the Sixth House changes the effects again and halves the magicka cost from 18 to 9, while keeping the autocalc flag. Sigourn's "Mort's Rebalance Series BTBGI Patch" restores the spell to the BTBGI version (which I think is best), but Merged Objects pulls in the lower magicka cost from Beware the Sixth House, which would mean the spell is only half as expensive as BTB intended.
 
 To fix this, delete the reference to this spell from Merged Objects in EE.
 
