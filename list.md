@@ -2263,11 +2263,13 @@ In Tribunal, there are a number of "old Dwemer books" that contain a single line
 
 There are two .esps in the archive, one for use with MCP's "better typography" patch and one without. Only use one (and you really should be using better typography).
 
-## [Bookart Replacer](https://www.nexusmods.com/morrowind/mods/48896)
+## [Bookart Replacer](https://www.nexusmods.com/morrowind/mods/48896) ([PFP Fixes](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Comrade%20Raven's%20Book%20Arts%20ESP%20Replacer.7z))
 
 More bookart here - this mod replaces the bookart in the base game with crisper, higher resolution drawings that are very faithful to the originals.
 
 The included plugin is optional, but there's no reason not to use it, as long as you're using MCP's "better typography" patch, which you should be. The plugin modifies a handful of books so the bookart will display as intended with better typography active.
+
+However, don't use the plugin in the main archive. Instead, use the replacement plugin by Sigourn at the "PFP Fixes" link above, which includes some fixes made by Patch for Purists that the original plugin misses.
 
 ## [New Guar Cart Mesh and Textures](https://www.nexusmods.com/morrowind/mods/44321)
 
@@ -4404,6 +4406,7 @@ Vurt's Hi-Res Menubook
 Pete's Scroll
 Old Dwemer Books
 Bookart Replacer
+Bookart Replacer Sigourn ESP Replacer
 New Guar Cart Mesh and Textures
 Ashlanders Textures
 HQ Bug Shells
