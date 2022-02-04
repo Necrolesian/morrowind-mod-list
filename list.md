@@ -1019,7 +1019,7 @@ The readme included in the archive with the distant statics overrides contains m
 
 Now we come to the "regular" mods, which we'll be installing in Wrye Mash. First up is the bugfix mods, which are needed to fix the astounding number of bugs that plague vanilla Morrowind.
 
-## [Patch for Purists](https://www.nexusmods.com/morrowind/mods/45096)
+## [Patch for Purists](https://www.nexusmods.com/morrowind/mods/45096) ([Sigourn Fixes](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Patch%20for%20Purists%20-%20Merged%20Fixes.7z))
 
 This is the big patch mod. If you could only install one Morrowind mod, you'd want it to be this one.
 
@@ -1027,7 +1027,9 @@ PFP fixes an enormous number of Morrowind's bugs, ranging from minor annoyances 
 
 The fixes made by PFP are split into three files. The main file is an .esm, Patch for Purists.esm, which contains the lion's share of the patch's fixes. There are also two .esp files, Book Typos and Semi-Purist Fixes. The readme describes these .esps as optional, and they are, but there's no good reason not to include them.
 
-In terms of load order, Patch for Purists.esm should be the first .esm to load after Bethesda's master files. The two PFP .esp files should also be relatively early in your load order; this way they can be overridden by other mods as needed.
+The second link above is to an informal addendum to PFP by Sigourn. PFP's plugins have a few minor conflicts with each other, which Sigourn's plugin fixes.
+
+In terms of load order, Patch for Purists.esm should be the first .esm to load after Bethesda's master files. The two PFP .esp files should also be relatively early in your load order; this way they can be overridden by other mods as needed. Sigourn's patch plugin should come immediately after PFP's .esp files.
 
 By the way, Patch for Purists.esm should not be cleaned with tes3cmd. It contains one technically "dirty" reference that's supposed to be there. Morrowind.esm contains an error in the Steel Cuirass. Tribunal fixes this mistake, but Bloodmoon reverts the fix. PFP reverts it back to the Tribunal version, but since the record is identical to the one in Tribunal.esm, tes3cmd thinks it's dirty and removes it. This is the only "dirty" record in the file anyway, so don't clean it.
 
@@ -4294,6 +4296,7 @@ Below is my final install order, after having installed all the mods on this lis
 Original Data Files
 MGE XE Data Files
 Patch for Purists
+Patch for Purists Sigourn Fixes
 Texture Fix
 Texture Fix - Bloodmoon
 Cinia
@@ -4621,6 +4624,7 @@ Texture Fix 2.0.esm
 Texture Fix - Bloodmoon 1.1.esm
 Patch for Purists - Book Typos.ESP
 Patch for Purists - Semi-Purist Fixes.ESP
+Patch for Purists - Merged Fixes.esp
 Lake Fjalding Anti-Suck.ESP
 master_index.esp
 EBQ_Artifact.esp
