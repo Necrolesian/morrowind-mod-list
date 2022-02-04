@@ -3391,11 +3391,13 @@ The mod also adds the same missing temple markers that Religions Elaborated does
 
 To remove those markers from the plugin, open it up in Enchanted Editor and delete the references to the four *exterior* cells. Don't delete the interior cell edits, as those contain the added shrines.
 
-## [Divayth Fyr Puzzle Fixed](https://www.nexusmods.com/morrowind/mods/45155)
+## [Divayth Fyr Puzzle Fixed](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Divayth%20Fyr%20Puzzle%20Fixed%20ESP%20Replacer.7z)
 
 Tel Fyr includes a nifty little puzzle. There are a number of chests scattered throughout the four zones of Tel Fyr (including the Corprusarium) with keys in them. Each key unlocks the next chest in the sequence, and there are a number of powerful artifacts inside locked containers.
 
 This is all well and good, but the problem is that the aforementioned powerful artifacts can all be acquired without even bothering with the key-finding puzzle; just unlock the relevant chests with picks or spells (or bash them open with Lua Lockbashing). This mod makes all the chests involved in the puzzle well and truly locked until you find the required key to open them, preventing you from completely bypassing the puzzle and giving you a strong incentive to run around tracking down all those keys.
+
+The link above is to a modified version of the plugin by Sigourn, that incorporates a fix from Patch for Purists missed in [the original](https://www.nexusmods.com/morrowind/mods/45155). It also includes a patch for a mod called Ownership Overhaul; you might as well go ahead and enable the patch now, if you plan on installing OO, which you really should.
 
 ## Consistent Enchanting ([Nexus](https://www.nexusmods.com/morrowind/mods/50029), [Github](https://github.com/NullCascade/morrowind-mods))
 
@@ -3483,6 +3485,8 @@ Item ownership in Morrowind is a complete mess. Buttloads of stuff that should b
 This mod puts a stop to that by making all that stuff that should be owned actually owned. Now you'll have to go dungeon delving for your loot instead of clearing out half of Balmora for free. Of course, you can always steal stuff, but you'll no longer be up to your ass in freebies within 100 feet of fast travel locations. This is a real balance and difficulty improvement.
 
 There's an .esm version and an .esp version of the mod, and you should only use one. The .esm version is safer from a compatibility standpoint (to ensure that other mods that touch the affected objects take priority), so just use the .esm. It should load immediately after Patch for Purists.esm, before your other .esms.
+
+Also, if you didn't enable the OO patch from Divayth Fyr Puzzle Fixed from earlier, go ahead and do so now.
 
 ## BTB's Game Improvements - Necro Edit ([Nexus](https://www.nexusmods.com/morrowind/mods/47129), [Moddinghall](https://mw.moddinghall.com/file/117-btbs-game-improvements-necro-edit))
 
@@ -4539,7 +4543,7 @@ The Publicans
 Great Service
 Religions Elaborated
 Improved Temple Experience
-Divayth Fyr Puzzle Fixed
+Divayth Fyr Puzzle Fixed Sigourn ESP Replacer
 Consistent Enchanting
 Randomized Chargen
 Economy Adjuster Adjustments
@@ -4646,6 +4650,7 @@ No Beds for the Diseased.ESP
 Great Service.ESP
 Mournhold LOD.ESP
 Divayth Fyr Puzzle Fixed.ESP
+Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
 The Dream is the Door.ESP
 Bloated Morrowind Magnified.esp
 Reduced_Forward_Jump.ESP
