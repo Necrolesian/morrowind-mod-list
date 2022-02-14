@@ -2822,11 +2822,11 @@ An atlas mesh is a mesh with all of its shapes combined into a single shape, whi
 
 Only a few areas of the game have been atlased so far, but these tend to be the more demanding areas (e.g. Balmora), and these areas will see real performance improvements once we install our atlas meshes and textures. The mods in this section will ultimately have no impact on the game's visuals, but will significantly improve the game's performance in certain areas.
 
-## [Project Atlas](https://www.nexusmods.com/morrowind/mods/45399) ([Old Version](https://www.dropbox.com/s/zft35tpctroryi4/Project%20Atlas%200.6.5.7z?dl=1))
+## [Project Atlas](https://www.nexusmods.com/morrowind/mods/45399)
 
 Project Atlas is a collection of atlased meshes for areas and objects (e.g. Hlaalu and Redoran architecture, the Imperial dragon statue) that are particularly demanding in terms of resources. The archive also contains a number of large megatextures, or atlas textures, which are used by the atlased meshes.
 
-At this time, if you're following this list (and in particular if you've installed the texture replacers that this list suggests), I recommend installing version 0.6.5 of Project Atlas, at the "old version" link above. The most recent version is very different, and better, but there are no atlas textures for it generated from the texture replacers we're using at this time, and generating them is a pain in the ass (which is why I haven't updated my Atlas Texture Collection yet). Once I do the necessary work, I'll update this list accordingly. For now, just install the older version 0.6.5.
+At this time, if you're following this list (and in particular if you've installed the texture replacers that this list suggests), I recommend installing version 0.6.5 of Project Atlas, under "old files". The most recent version is very different, and better, but there are no atlas textures for it generated from the texture replacers we're using at this time, and generating them is a pain in the ass (which is why I haven't updated my Atlas Texture Collection yet). Once I do the necessary work, I'll update this list accordingly. For now, just install the older version 0.6.5.
 
 Install order is particularly important here. Project Atlas should be *after* the main Graphic Herbalism archive (which itself should be after Glow in the Dahrk), but *before* the GH Patches and Replacers archive on the Installers tab in Wrye Mash. The reason for this is that GH Patches and Replacers includes atlas patches for the Bitter Coast mushrooms which must overwrite the Project Atlas meshes in order for Graphic Herbalism to work with them.
 
