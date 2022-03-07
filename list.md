@@ -3993,28 +3993,6 @@ This should not be possible no matter how skilled you are at smooth talking.
 
 By disabling taunting, you can no longer kill anyone you want with no bounty. This works very well with MAB0's Manipulated, which criminalizes the use of Frenzy Humanoid. You can still go around killing friendly NPCs, but if there are witnesses expect your crime to be reported.
 
-In addition to disabling taunting, there are two tweaks I suggest making to the mod's code (edit the mod's main.lua file in a text editor):
-
-1. Topic pane width
-
-This mod increases the width of the dialogue menu's topic pane, which can sometimes cause a portion of a long greeting to be cut off. There's no need to widen the topic pane anyway; the vanilla width is quite wide enough for the mod's new fillbars.
-
-To fix this, change all five instances of the number `192` in the function `updateDialogFillBars` to `166`. This will revert the topic pane to its vanilla width.
-
-2. Log errors
-
-The mod will sometimes cause errors in mwse.log related to trying to index a nil value. To fix this, find this line:
-
-```
-if e.target.object.baseObject.objectType ~= tes3.objectType.npc then return end
-```
-
-Immediately *before* that line, add:
-
-```
-if not e.target.object.baseObject then return end
-```
-
 ## [Putting Power in Willpower](https://www.nexusmods.com/morrowind/mods/45742)
 
 In vanilla Morrowind, the willpower attribute is useful for very little. It contributes to your max fatigue, and it helps you resist certain magic effects that have no magnitude, such as paralysis, and that's pretty much it. A couple mods we've already installed implement additional uses for willpower: with CCCP, willpower influences your rate of magicka regen, and with Wings of Will, it affects your speed while levitating. This mod will finish the job of making willpower a full-fledged attribute.
