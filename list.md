@@ -3779,9 +3779,9 @@ Expansions Integrated and MDMD make conflicting edits to a number of NPCs, and t
 
 2. There Can Be Only One (Alt Fyr 2) Patch
 
-The archive contains six subpackages related to TCBOO. There are patches for the three versions of TCBOO (standard, Alt Fyr 1, and Alt Fyr 2). There's also an alternate version of Alt Fyr 2 (giving an alternate robe to Divayth Fyr) with a patch for it, and an additional modified version of TCBOO that Sigourn calls "Alt Fyr 3", with a patch for it as well. Finally, there's a patch for MDMD's creatures addon and TCBOO.
+The archive contains five subpackages related to TCBOO. There are patches for the three versions of TCBOO (standard, Alt Fyr 1, and Alt Fyr 2). There's also an alternate version of Alt Fyr 2 (giving an alternate robe to Divayth Fyr) with a patch for it. Finally, there's a patch for MDMD's creatures addon and TCBOO.
 
-Install the patch for whichever version of TCBOO you're using; I use Alt Fyr 2 myself. (You can use Sigourn's alternate Alt Fyr 2 if you prefer it, though I wouldn't recommend using Alt Fyr 3.) The patch should go right after the TCBOO Expansions Integrated patch in your load order.
+Install the patch for whichever version of TCBOO you're using; I use Alt Fyr 2 myself. (You can use Sigourn's "Alt Fyr 2 RV" if you prefer it.) The patch should go right after the TCBOO Expansions Integrated patch in your load order.
 
 We don't need to install the TCBOO MDMD Creatures patch, because the BTBGI MDMD Creatures patch includes all of its edits and more.
 
