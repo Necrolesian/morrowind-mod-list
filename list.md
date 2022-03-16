@@ -3624,7 +3624,7 @@ The readme includes detailed comparisons between vanilla, BTBGI and this mod, an
 
 This mod makes a number of changes to the game in order to prevent exploits or make it more difficult to get really nice stuff. It makes some enemies guarding aforementioned nice stuff tougher, plus adds some new guards and other enemies, replaces some of that nice stuff with less nice stuff, and makes a few other changes. See the readme for a complete list.
 
-The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive contains a number of sub-packages, but right now we only need Anti-Cheese. (The Enhanced Detection patch is for the full version of ED; it's not needed with the Less Lite version.)
+The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. There are a number of files available for download; we only need the main file, "BTBGI Necro Edit Tweaked". (The file "BTBGI Necro Edit Tweaked Patches" will be needed later only if you'll be installing Ashfall.) The main archive contains a number of sub-packages, but right now we only need Anti-Cheese.
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
@@ -3791,9 +3791,9 @@ BTBGI and MDMD's creatures add-on make conflicting edits to quite a few creature
 
 There are actually two versions of this patch. Use the regular version, unless you're using the "creature buffs" plugin from BTBGI, in which case use the creature buffs patch instead.
 
-## [More Sigourn Patches](https://www.nexusmods.com/morrowind/mods/50308)
+## [Rebalance Series Patch](https://www.nexusmods.com/morrowind/mods/50308)
 
-The link above is to Sigourn's "BTBGI Necro Edit Tweaked and Patches", which you should have already downloaded for Morrowind Anti-Cheese. There are a couple additional patches we want to install from this archive. Install the Mort's rebalance series patch and the Tribunal Rebalance MAC patch. These patches should both come after Mort's rebalance mods (Tribunal Rebalance, Bloodmoon Rebalance, and Beware the Sixth House) in the load order.
+The link above is to Sigourn's "BTBGI Necro Edit Tweaked and Patches"; you should have already downloaded the main file from this page for Morrowind Anti-Cheese. Go ahead and install the "Rebalance Series Patch" from this archive. This patch should come after Mort's rebalance mods (Tribunal Rebalance, Bloodmoon Rebalance, and Beware the Sixth House) in the load order.
 
 ## [Alvazir's Various Patches](https://www.nexusmods.com/morrowind/mods/48955)
 
@@ -4183,7 +4183,7 @@ There are a few special considerations for those following this list if you choo
 
 Ashfall changes the values of a few ingredients; in particular, it lowers the value of three meat ingredients that BTBGI raises. This patch raises them back to BTBGI values.
 
-You should have already downloaded this file. Create a separate installer for the Ashfall patch, and install after Ashfall in Wrye Mash.
+You should have already downloaded the main file from the above link. Now we need the file "BTBGI Necro Edit Tweaked Patches". Install *only* the Ashfall patch from this archive (the Enhanced Detection patch is for the full version of ED, which this list doesn't recommend), and make sure it comes after Ashfall in the install order in Wrye Mash.
 
 However I do recommend tweaking the patch's main.lua first to change the value of Rat Meat from 10 to 15, as it is in BTBGI Necro Edit.
 
@@ -4534,7 +4534,7 @@ HardTrade
 Ownership Overhaul
 BTB's Game Improvements - Necro Edit
 Balanced Passive Races and Birthsigns
-BTBGI Necro Edit Tweaked and Patches
+BTBGI Necro Edit Tweaked (Anti-Cheese, Rebalance Series Patch)
 Better Character Classes
 No Rest Without Beds
 No Beds for the Diseased
@@ -4660,8 +4660,7 @@ Bloodmoon Rebalance.esp
 Beware the Sixth House.ESP
 avp BTBGI-NE - Better Clothes Complete.esp
 avp BTBGI-NE - Better Robes.esp
-Mort's Rebalance Series BTBGI Patch.ESP
-Tribunal Rebalance Morrowind Anti-Cheese Tweaked Patch.ESP
+Rebalance Series BTBGI Patch.ESP
 avp BTBGI-NE - Game Settings - More Meaningful Encumbrance.esp
 avp BTBGI-NE - Game Settings - Suggested Tweaks.esp
 avp BTBGI-NE - Game Settings - BTBGI Adjustments.esp
