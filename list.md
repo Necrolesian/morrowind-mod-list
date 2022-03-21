@@ -3395,13 +3395,13 @@ The mod also adds the same missing temple markers that Religions Elaborated does
 
 To remove those markers from the plugin, open it up in Enchanted Editor and delete the references to the four *exterior* cells. Don't delete the interior cell edits, as those contain the added shrines.
 
-## [Divayth Fyr Puzzle Fixed](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Divayth%20Fyr%20Puzzle%20Fixed%20ESP%20Replacer.7z)
+## [Divayth Fyr Puzzle Fixed](https://www.nexusmods.com/morrowind/mods/45155)
 
 Tel Fyr includes a nifty little puzzle. There are a number of chests scattered throughout the four zones of Tel Fyr (including the Corprusarium) with keys in them. Each key unlocks the next chest in the sequence, and there are a number of powerful artifacts inside locked containers.
 
 This is all well and good, but the problem is that the aforementioned powerful artifacts can all be acquired without even bothering with the key-finding puzzle; just unlock the relevant chests with picks or spells (or bash them open with Lua Lockbashing). This mod makes all the chests involved in the puzzle well and truly locked until you find the required key to open them, preventing you from completely bypassing the puzzle and giving you a strong incentive to run around tracking down all those keys.
 
-The link above is to a modified version of the plugin by Sigourn, that incorporates a fix from Patch for Purists missed in [the original](https://www.nexusmods.com/morrowind/mods/45155). It also includes a patch for a mod called Ownership Overhaul; you might as well go ahead and enable the patch now, if you plan on installing OO, which you really should.
+Install the PFP version of the mod, which incorporates a fix from Patch for Purists, not the "vanilla" version. Also included is a patch for a mod called Ownership Overhaul; you might as well go ahead and enable the patch now, if you plan on installing OO, which you really should.
 
 ## Consistent Enchanting ([Nexus](https://www.nexusmods.com/morrowind/mods/50029), [Github](https://github.com/NullCascade/morrowind-mods))
 
@@ -4526,7 +4526,7 @@ The Publicans
 Great Service
 Religions Elaborated
 Improved Temple Experience
-Divayth Fyr Puzzle Fixed Sigourn ESP Replacer
+Divayth Fyr Puzzle Fixed
 Consistent Enchanting
 Randomized Chargen
 Economy Adjuster Adjustments
