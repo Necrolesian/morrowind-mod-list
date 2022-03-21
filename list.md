@@ -3624,7 +3624,7 @@ The readme includes detailed comparisons between vanilla, BTBGI and this mod, an
 
 This mod makes a number of changes to the game in order to prevent exploits or make it more difficult to get really nice stuff. It makes some enemies guarding aforementioned nice stuff tougher, plus adds some new guards and other enemies, replaces some of that nice stuff with less nice stuff, and makes a few other changes. See the readme for a complete list.
 
-The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. There are a number of files available for download; we only need the main file, "BTBGI Necro Edit Tweaked". (The file "BTBGI Necro Edit Tweaked Patches" will be needed later only if you'll be installing Ashfall.) The main archive contains a number of sub-packages, but right now we only need Anti-Cheese.
+The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. There are a number of files available for download; we only need the main file, "BTBGI Necro Edit Tweaked". (The file "BTBGI Necro Edit Tweaked Patches" will be needed later only if you'll be installing Ashfall.) The main archive contains a number of sub-packages, but we only need Anti-Cheese.
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
@@ -3791,9 +3791,9 @@ BTBGI and MDMD's creatures add-on make conflicting edits to quite a few creature
 
 There are actually two versions of this patch. Use the regular version, unless you're using the "creature buffs" plugin from BTBGI, in which case use the creature buffs patch instead.
 
-## [Rebalance Series Patch](https://www.nexusmods.com/morrowind/mods/50308)
+## [Rebalance Series Patch](https://www.dropbox.com/s/iu1i746zcbqmox6/Rebalance%20Series%20BTBGI%20Patch%202.0.1.7z?dl=1)
 
-The link above is to Sigourn's "BTBGI Necro Edit Tweaked and Patches"; you should have already downloaded the main file from this page for Morrowind Anti-Cheese. Go ahead and install the "Rebalance Series Patch" from this archive. This patch should come after Mort's rebalance mods (Tribunal Rebalance, Bloodmoon Rebalance, and Beware the Sixth House) in the load order.
+This is a patch by Sigourn for Mort's "rebalance series" mods and BTBGI. It should come after Mort's mods (Tribunal Rebalance, Bloodmoon Rebalance, and Beware the Sixth House) in the load order.
 
 ## [Alvazir's Various Patches](https://www.nexusmods.com/morrowind/mods/48955)
 
@@ -4534,7 +4534,7 @@ HardTrade
 Ownership Overhaul
 BTB's Game Improvements - Necro Edit
 Balanced Passive Races and Birthsigns
-BTBGI Necro Edit Tweaked (Anti-Cheese, Rebalance Series Patch)
+BTBGI Necro Edit Tweaked (Anti-Cheese)
 Better Character Classes
 No Rest Without Beds
 No Beds for the Diseased
@@ -4550,6 +4550,7 @@ Helm of Tohan BTBGI Patch
 TCBOO Expansions Integrated Patch
 Sigourn - Ownership Overhaul Patches
 Sigourn - MDMD Patches
+Rebalance Series BTBGI Patch
 BTBGI Necro Edit Modular Patch
 Bloodmoon Rebalance PFP Patch
 Blighted Blight
