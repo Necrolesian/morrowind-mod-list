@@ -3340,7 +3340,7 @@ This mod makes forward speed while jumping much more reasonable. In most circums
 
 This last of our movement speed mods addresses your speed while levitating. In vanilla Morrowind, your levitation speed is based on your speed attribute. This mod simply makes it based on your willpower attribute instead, while keeping the calculation otherwise identical. This makes a lot more sense, and provides a sorely-needed additional use for willpower.
 
-There's one minor issue we can address by editing the code. When you're levitating underwater, you're still levitating, in addition to swimming, and this mod will still affect your speed. This means that if your willpower and speed are very different, you can greatly increase (or decrease) your swimming speed by casting levitate.
+There's one minor issue we can address by editing the code. When you're levitating underwater, you're still levitating, in addition to swimming, and this mod will still affect your speed. This means that you can swim/levitate unrealistically fast underwater with high willpower.
 
 To address this, find the line that says:
 
@@ -3354,7 +3354,7 @@ and add the following immediately below it:
 if e.mobile.isSwimming then return end
 ```
 
-Now your "levitation" speed will be based on your speed attribute while swimming, and casting levitate should no longer make a big difference to your swim speed.
+Now the mod will no longer influence your "levitation" speed underwater, and casting levitate should no longer make a big difference to your swim speed.
 
 ## [A Sinking Feeling](https://www.nexusmods.com/morrowind/mods/50113)
 
