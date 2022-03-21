@@ -3291,9 +3291,11 @@ Now we come to a series of mods that affect movement speed. This one fixes a min
 
 There's one issue to fix in the archive before installation. Unlike other MWSE mods, this mod's main.lua file is just dumped in MWSE\mods rather than being put in a subdirectory. This is confusing, and would conflict with any other mod that does the same thing (since the file path would be the same). So go ahead and put the file in its own subdirectory before installing - the file should be MWSE\mods\Immersive Run Fix\main.lua.
 
-## [Wading in Water](https://www.nexusmods.com/morrowind/mods/48783)
+## [Wading in Water](https://www.nexusmods.com/morrowind/mods/48783) ([Necro Edit](https://www.dropbox.com/s/olaxpt0u4zgzrum/Wading%20in%20Water%201.1%20Necro%20Edit.7z?dl=1))
 
 This mod lowers your speed when running or walking in water that's not deep enough for you to actually be swimming. In vanilla Morrowind, you can wade into the water and maintain your normal running speed right up until the water gets deep enough for you to have to swim. With this mod, your speed while wading will gradually slow down as the water gets deeper, until eventually reaching your normal swimming speed (modified by any Swift Swim magnitude you're under) once you start swimming.
+
+The "Necro Edit" version is the same as the regular version, except it's compatible with (the Necro Edit version of) Balance Your Burdens below, so grab the Necro Edit version.
 
 ## [Realistic Movement Speeds](https://www.nexusmods.com/morrowind/mods/46248)
 
@@ -3303,30 +3305,11 @@ With this mod, your backward and strafing speeds will be modified by a configura
 
 This is much more realistic. Now, if you start running backward while slinging spells or arrows at your opponents, expect them to be able to catch up with you. You can adjust the speed modifiers in the MCM, though I recommend leaving them as they are.
 
-## [Balance Your Burdens](https://www.nexusmods.com/morrowind/mods/50860)
+## [Balance Your Burdens](https://www.nexusmods.com/morrowind/mods/50860) ([Necro Edit](https://www.dropbox.com/s/vu60nc3ezg9g9ji/Balance%20Your%20Burdens%201.1%20Necro%20Edit.7z?dl=1))
 
 This mod, among other things, causes your encumbrance to have a much greater effect on your movement speed, to the point where you'll move very slowly when fully loaded up. This does more than any other mod on this list to incentivize you to watch your encumbrance and travel light when possible. It also breathes new life into the Feather effect, which you'll have much more incentive to use when you must travel with a full pack.
 
-The mod actually has several other effects as well, but we're only interested in the movement speed effect. To disable the others, you'll need to edit the mod's main.lua in a text editor. The beginning of the file has the following text:
-
-```
---- @param mobile tes3mobileActor
-local function calcEncumbrance(mobile)
-    local encumbranceRatio = ((mobile.encumbrance.current > mobile.encumbrance.base) and 1)
-            or ((mobile.encumbrance.base > 0) and ((mobile.encumbrance.current / mobile.encumbrance.base) ^ 2))
-            or 0
-    return math.sqrt(1 - encumbranceRatio)
-end
-
---- @param e calcMoveSpeedEventData
-local function calcMoveSpeedCallback(e)
-    local encumbrance = calcEncumbrance(e.mobile)
-    e.speed = e.speed * encumbrance
-end
-event.register(tes3.event.calcMoveSpeed, calcMoveSpeedCallback)
-```
-
-Delete everything *else*, so that the above text is all that's in the file.
+The main version of the mod actually has several other effects as well, but I suggest using the "Necro Edit" version instead. This version removes everything except the movement speed effect, plus it includes compatibility with (the Necro Edit version of) Wading in Water above.
 
 ## [Reduced Forward Jump](https://www.nexusmods.com/morrowind/mods/45426)
 
@@ -4541,9 +4524,9 @@ Dynamic Timescale
 Lua Lockbashing
 Hold Your Breath
 Immersive Run Fix
-Wading in Water
+Wading in Water (Necro Edit)
 Realistic Movement Speeds
-Balance Your Burdens (Movement Speed Only)
+Balance Your Burdens (Necro Edit)
 Reduced Forward Jump
 Wings of Will
 A Sinking Feeling
