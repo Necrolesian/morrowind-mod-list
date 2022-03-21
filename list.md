@@ -3287,7 +3287,7 @@ The base value (10 seconds) and endurance multiplier can be adjusted in the MCM 
 
 ## [Immersive Run Fix](https://www.nexusmods.com/morrowind/mods/45947)
 
-Now we come to a series of five mods that affect movement speed. This one fixes a minor but bothersome inconsistency. In vanilla Morrowind, if you run forward and also strafe left or right at the same time, you'll move faster than you would if you were just running forward, because your full forward speed and left/right speeds are combined. This actually applies whenever you combine forward/back movement with left/right movement, whether running, walking, sneaking, swimming or flying. This mod just slows you down while moving diagonally, so you'll no longer get there faster than by just running straight ahead.
+Now we come to a series of mods that affect movement speed. This one fixes a minor but bothersome inconsistency. In vanilla Morrowind, if you run forward and also strafe left or right at the same time, you'll move faster than you would if you were just running forward, because your full forward speed and left/right speeds are combined. This actually applies whenever you combine forward/back movement with left/right movement, whether running, walking, sneaking, swimming or flying. This mod just slows you down while moving diagonally, so you'll no longer get there faster than by just running straight ahead.
 
 There's one issue to fix in the archive before installation. Unlike other MWSE mods, this mod's main.lua file is just dumped in MWSE\mods rather than being put in a subdirectory. This is confusing, and would conflict with any other mod that does the same thing (since the file path would be the same). So go ahead and put the file in its own subdirectory before installing - the file should be MWSE\mods\Immersive Run Fix\main.lua.
 
@@ -3302,6 +3302,31 @@ We still need to address movement speed while moving backward or strafing. Witho
 With this mod, your backward and strafing speeds will be modified by a configurable multiplier. These multipliers by default are 60% for backward movement and 80% for strafing (80% of 75% is 60%, so your backward and strafing speeds will end up being the same with default settings). Your forward movement speed is not affected, though diagonal movement will be slower because you're strafing.
 
 This is much more realistic. Now, if you start running backward while slinging spells or arrows at your opponents, expect them to be able to catch up with you. You can adjust the speed modifiers in the MCM, though I recommend leaving them as they are.
+
+## [Balance Your Burdens](https://www.nexusmods.com/morrowind/mods/50860)
+
+This mod, among other things, causes your encumbrance to have a much greater effect on your movement speed, to the point where you'll move very slowly when fully loaded up. This does more than any other mod on this list to incentivize you to watch your encumbrance and travel light when possible. It also breathes new life into the Feather effect, which you'll have much more incentive to use when you must travel with a full pack.
+
+The mod actually has several other effects as well, but we're only interested in the movement speed effect. To disable the others, you'll need to edit the mod's main.lua in a text editor. The beginning of the file has the following text:
+
+```
+--- @param mobile tes3mobileActor
+local function calcEncumbrance(mobile)
+    local encumbranceRatio = ((mobile.encumbrance.current > mobile.encumbrance.base) and 1)
+            or ((mobile.encumbrance.base > 0) and ((mobile.encumbrance.current / mobile.encumbrance.base) ^ 2))
+            or 0
+    return math.sqrt(1 - encumbranceRatio)
+end
+
+--- @param e calcMoveSpeedEventData
+local function calcMoveSpeedCallback(e)
+    local encumbrance = calcEncumbrance(e.mobile)
+    e.speed = e.speed * encumbrance
+end
+event.register(tes3.event.calcMoveSpeed, calcMoveSpeedCallback)
+```
+
+Delete everything *else*, so that the above text is all that's in the file.
 
 ## [Reduced Forward Jump](https://www.nexusmods.com/morrowind/mods/45426)
 
@@ -4518,6 +4543,7 @@ Hold Your Breath
 Immersive Run Fix
 Wading in Water
 Realistic Movement Speeds
+Balance Your Burdens (Movement Speed Only)
 Reduced Forward Jump
 Wings of Will
 A Sinking Feeling
