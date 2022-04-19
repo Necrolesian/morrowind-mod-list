@@ -3289,7 +3289,13 @@ The base value (10 seconds) and endurance multiplier can be adjusted in the MCM 
 
 Now we come to a series of mods that affect movement speed. This one fixes a minor but bothersome inconsistency. In vanilla Morrowind, if you run forward and also strafe left or right at the same time, you'll move faster than you would if you were just running forward, because your full forward speed and left/right speeds are combined. This actually applies whenever you combine forward/back movement with left/right movement, whether running, walking, sneaking, swimming or flying. This mod just slows you down while moving diagonally, so you'll no longer get there faster than by just running straight ahead.
 
-There's one issue to fix in the archive before installation. Unlike other MWSE mods, this mod's main.lua file is just dumped in MWSE\mods rather than being put in a subdirectory. This is confusing, and would conflict with any other mod that does the same thing (since the file path would be the same). So go ahead and put the file in its own subdirectory before installing - the file should be MWSE\mods\Immersive Run Fix\main.lua.
+There are two issues to fix in the archive before installation. First, unlike other MWSE mods, this mod's main.lua file is just dumped in MWSE\mods rather than being put in a subdirectory. This is confusing, and would conflict with any other mod that does the same thing (since the file path would be the same). So go ahead and put the file in its own subdirectory before installing - the file should be MWSE\mods\Immersive Run Fix\main.lua.
+
+Second, there's an error in the mod that causes *everyone's* speed to be reduced whenever the *player* is moving diagonally (this mod should affect only the player). To fix it, open up main.lua in a text editor. Immediately below the first line (i.e. the new line should be the second line of the file), add the following:
+
+```
+if e.mobile ~= tes3.mobilePlayer then return end
+```
 
 ## [Wading in Water](https://www.nexusmods.com/morrowind/mods/48783) ([Necro Edit](https://www.dropbox.com/s/olaxpt0u4zgzrum/Wading%20in%20Water%201.1%20Necro%20Edit.7z?dl=1))
 
