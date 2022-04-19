@@ -1019,7 +1019,7 @@ The readme included in the archive with the distant statics overrides contains m
 
 Now we come to the "regular" mods, which we'll be installing in Wrye Mash. First up is the bugfix mods, which are needed to fix the astounding number of bugs that plague vanilla Morrowind.
 
-## [Patch for Purists](https://www.nexusmods.com/morrowind/mods/45096) ([Sigourn Fixes](https://github.com/Sigourn/morrowind-sharprepository/raw/main/Patch%20for%20Purists%20-%20Merged%20Fixes.7z))
+## [Patch for Purists](https://www.nexusmods.com/morrowind/mods/45096) ([Sigourn Fixes](https://www.dropbox.com/s/6dpcegwafzgitd9/PFP%20Merged%20Fixes%20Sigourn%202022-02-03.7z?dl=1))
 
 This is the big patch mod. If you could only install one Morrowind mod, you'd want it to be this one.
 
