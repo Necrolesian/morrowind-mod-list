@@ -1235,6 +1235,14 @@ if objectValue and e.object.weight and ( objectValue > 0 or e.object.weight > 0 
 
 This causes the icon bar to not display when the weight and value of an object are both 0.
 
+## [Less Lame Leveled Spawns](https://www.nexusmods.com/morrowind/mods/51059)
+
+Have you ever killed a creature in a dungeon, then left the dungeon and re-entered, and found that creature you just killed resurrected and out for revenge? This is caused by a bug in the game that's triggered when you dispose of the corpse of a creature spawned from a leveled list (as most creatures in the game are). The same thing can happen if you save your game in the dungeon, then quit Morrowind, restart, and reload your save. This means it's necessary to avoid disposing of corpses if you don't want to deal with too-early respawns (creatures aren't supposed to respawn until 72 in-game hours have passed).
+
+Less Lame Leveled Spawns fixes this bug. With this mod, you can dispose of corpses to your heart's content and stop worrying about it.
+
+I do highly recommend enabling the "prevent spawns with a cooldown" option in the MCM, to fix the bug when you leave a dungeon and re-enter (the other option, which should also be left enabled, only fixes it when you save, quit, and reload).
+
 ## [Smart Journal](https://www.nexusmods.com/morrowind/mods/47492)
 
 This mod implements a number of convenience improvements to the journal. When downloading the mod, I recommend grabbing **version 1.03** under "old files", rather than the most recent version. The versions since 1.03 include a number of extra features (adding the quest name to the messagebox that appears informing you of a journal update, adding some additional info to the "quest hint" when you hover over the quest name, widening the journal bookmark with a new texture) that I don't care for, and nothing that I do, so I use the older version to avoid unnecessary bloat. However, if the new features sound good to you, feel free to install the latest version instead.
@@ -4309,6 +4317,7 @@ New Game Confirmation
 Sophisticated Save System
 Right Click Menu Exit
 UI Expansion
+Less Lame Leveled Spawns
 Smart Journal
 Hot Quests
 Book Worm
