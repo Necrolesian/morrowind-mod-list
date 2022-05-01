@@ -1243,6 +1243,12 @@ Less Lame Leveled Spawns fixes this bug. With this mod, you can dispose of corps
 
 I do highly recommend enabling the "prevent spawns with a cooldown" option in the MCM, to fix the bug when you leave a dungeon and re-enter (the other option, which should also be left enabled, only fixes it when you save, quit, and reload).
 
+## [MultiEnchant](https://www.nexusmods.com/morrowind/mods/51022)
+
+Another bug that makes things harder than they should be, and another mod to fix said bug.
+
+This one has to do with charge costs (how much of the item's charge is consumed per use) of player-created enchanted items, including ones you pay an enchanter to create for you. In vanilla Morrowind, when you create an enchanted item with more than one effect, the total charge cost is greater than the cost of each of the effects separately, and this discrepancy gets worse the more effects you add (the charge cost for each previous effect gets added again). With this mod, the game just adds the charge costs of each effect to determine the total cost for the item, so you're no longer especially punished for adding multiple effects.
+
 ## [Smart Journal](https://www.nexusmods.com/morrowind/mods/47492)
 
 This mod implements a number of convenience improvements to the journal. When downloading the mod, I recommend grabbing **version 1.03** under "old files", rather than the most recent version. The versions since 1.03 include a number of extra features (adding the quest name to the messagebox that appears informing you of a journal update, adding some additional info to the "quest hint" when you hover over the quest name, widening the journal bookmark with a new texture) that I don't care for, and nothing that I do, so I use the older version to avoid unnecessary bloat. However, if the new features sound good to you, feel free to install the latest version instead.
@@ -4318,6 +4324,7 @@ Sophisticated Save System
 Right Click Menu Exit
 UI Expansion
 Less Lame Leveled Spawns
+MultiEnchant
 Smart Journal
 Hot Quests
 Book Worm
