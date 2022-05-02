@@ -4115,6 +4115,16 @@ I set the minimum fatigue to jump to the amount that jumping lowers your fatigue
 
 Jumping lowers your fatigue by 5 points in vanilla Morrowind, and by 20 with BTBGI. If you're using the "More Meaningful Encumbrance" tweak mod, the fatigue cost of jumping will vary from 15-35, depending on encumbrance; in this case, I suggest setting the minimum fatigue to jump to 35.
 
+## [AntiBunny](https://www.nexusmods.com/morrowind/mods/51026)
+
+We're not quite done tweaking jump mechanics. In addition to being able to bunny hop everywhere with no fatigue, in vanilla Morrowind, you're often able to jump unrealistic heights and distances, depending on your stats. This mod adjusts the jump formula to be more realistic, taking into account acrobatics, agility, fatigue, encumbrance, and any magnitude of the Jump magic effect you're under. Jumping height/distance is greatly reduced at low fatigue or high encumbrance; high acrobatics and endurance significantly improves your jumping performance, but not to an unrealistic extent.
+
+This mod makes jumping more realistic, but it a pretty significant gimp from vanilla. Even the Jump magic effect is tempered; it can greatly increase jump height/distance, but truly epic jumps will require a higher magnitude. If you're using Balanced Passive Races and Birthsigns, this mod will somewhat reduce the effectiveness of the Khajiit's racial Jump effect. I think this is a good change though; it's still a useful effect, especially paired with the racial Slowfall bonus.
+
+Even the Scrolls of Icarian Flight are nerfed with this mod. In vanilla, the scrolls are basically a joke item, not intended to be seriously used. With this mod, they'll enable you to make an extraordinary leap that you might reasonably want to attempt in actual gameplay, without sending you halfway across Vvardenfell (taking damage upon landing is still an issue).
+
+The terms the mod uses in its formula are configurable in the MCM, but I don't recommend making any changes. The settings are fine as they are.
+
 # Optional/Hardcore Mods
 
 Everything on this list is optional; this list reflects my personal vision for Morrowind, and it's definitely not for everybody. However, the mods in this section are more optional than most.
@@ -4598,6 +4608,7 @@ Putting Power in Willpower
 DragonDoor
 Dungeons Rest
 Limited Leaping
+AntiBunny
 Limited Intervention
 Limited Recall
 Naked and Alone
