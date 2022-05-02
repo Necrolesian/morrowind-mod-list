@@ -1085,9 +1085,7 @@ I recommend adding a couple (but not all) of Bethesda's official plugins to your
 
 This mod, the name of which can thankfully be shortened to UMOPP, is actually a compilation of all of Bethesda's official plugins, with their bugs and other issues fixed. In particular, those official plugins that include journal entries now have official journal quests (the original versions of the official plugins were released before the journal quest system was introduced in the expansions).
 
-The download page for UMOPP includes a couple of optional files, including a download with "merged and compatibility" versions, but there's no need to bother with these. (The compatibility versions would generally be recommended, but the plugins I suggest using don't have compatibility versions.) Just download the main file.
-
-I recommend enabling the following plugins from this package:
+I recommend installing the following sub-packages:
 
 - Master Index: Vanilla Morrowind contains ten "propylon indices" that can be used for fast travel between the Dunmer strongholds scattered over Vvardenfell, but almost no clues to their locations. This plugin adds a quest that clues you in, plus a "master index," that can be used for more convenient fast travel between the strongholds, as a quest reward for finding them all.
 
