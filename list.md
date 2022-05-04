@@ -3219,6 +3219,14 @@ Fortunately this mod is here to solve that problem by allowing us to travel to M
 
 You can't start the Tribunal main quest early this way (you still have to be attacked for that), but you can travel to Mournhold, explore, and complete Tribunal miscellaneous quests. A whole area of the game, once blocked off, is now available to you practically from the get-go.
 
+## [Reputation Fixes](https://www.nexusmods.com/morrowind/mods/51096) ([Necro Edit](https://www.dropbox.com/s/v2i30lc02hcf7id/Reputation%20Fixes%201.0%20Necro%20Edit.7z?dl=1))
+
+This mod corrects an inexplicable oversight on the part of the developers. For most factions, you'll gain a good amount of reputation by working you way through the faction's quests. But, very strangely, you get no reputation at all for Fighters Guild and Thieves Guild quests, and almost no rep for Imperial Legion quests.
+
+With this mod, you'll now receive a reasonable amount of reputation for completing the Fighters Guild and Imperial Legion questlines, in line with other factions. You'll earn less rep from the Thieves Guild quests (since you're not supposed to be attracting attention), but more than zero.
+
+The "Necro Edit" version of the mod fixes a few issues, mostly incorporating a few fixes from Patch for Purists (see its readme for details), so grab that version.
+
 ## [Hospitality Papers Expanded](https://www.nexusmods.com/morrowind/mods/46107)
 
 The original mod [Hospitality Papers](http://mw.modhistory.com/download-90-6206) enforces a gameplay mechanic that was hinted at in vanilla Morrowind but never actually implemented. In the vanilla game, you'll be told that you must purchase Hospitality Papers in order to receive services in Sadrith Mora, but this is never actually enforced. The mod causes service providers in the city to refuse service to you unless you have your papers in your inventory.
@@ -4556,6 +4564,7 @@ Magicka Based Skill Progression
 Nimble Armor
 Expansion Delay
 Early Transport to Mournhold
+Reputation Fixes (Necro Edit)
 Hospitality Papers Expanded
 Expansions Integrated
 Creeping Blight - MWSE Version
@@ -4666,6 +4675,7 @@ Under Construction.esp
 Cinia.esp
 Expansion Delay.ESP
 Early Transport to Mournhold.esp
+Reputation_Fixes_All.ESP
 Quick Char (Necro Edit).esp
 Glowing Atronachs.esp
 Better Clothes Complete.ESP
