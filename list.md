@@ -1081,25 +1081,19 @@ The mod also fixes a couple errors in the Raven Rock scripts, in particular a fl
 
 I recommend adding a couple (but not all) of Bethesda's official plugins to your load order - the ones that I feel add something worthwhile to the game. We won't be downloading the original versions of these plugins, because they have some bugs and other problems. This section consists of alternate versions of a few official plugins, plus a couple related mods and fixes.
 
-## Unofficial Morrowind Official Plugins Patched ([Nexus](https://www.nexusmods.com/morrowind/mods/43931), [Moddinghall](https://mw.moddinghall.com/file/78-unofficial-morrowind-official-plugins-patched))
+## [Official Plugins Naturalized](https://www.nexusmods.com/morrowind/mods/51107)
 
-This mod, the name of which can thankfully be shortened to UMOPP, is actually a compilation of all of Bethesda's official plugins, with their bugs and other issues fixed. In particular, those official plugins that include journal entries now have official journal quests (the original versions of the official plugins were released before the journal quest system was introduced in the expansions).
+This mod is actually a compilation of most of Bethesda's official plugins, with their bugs and other issues fixed, along with a few other improvements to make them fit in with the game world better. In particular, those official plugins that include journal entries now have official journal quests (the original versions of the official plugins were released before the journal quest system was introduced in the expansions).
 
-I recommend installing the following sub-packages:
+I only recommend enabling two of the plugins from this mod:
 
 - Master Index: Vanilla Morrowind contains ten "propylon indices" that can be used for fast travel between the Dunmer strongholds scattered over Vvardenfell, but almost no clues to their locations. This plugin adds a quest that clues you in, plus a "master index," that can be used for more convenient fast travel between the strongholds, as a quest reward for finding them all.
 
-- Helm of Tohan (EBQ_Artifact): Adds a small quest, and a unique adamantium helm as a reward.
+- Helm of Tohan: Adds a small quest, and a unique adamantium helm as a reward.
 
 We'll be installing an alternative version of Area Effect Arrows in a bit, and one of the mods on this list basically incorporates an alternative version of Adamantium Armor. The other official plugins aren't worth our time.
 
 I put the official plugins, and other related plugins, early in the load order.
-
-## [Better Propylon Teleport Script](https://www.nexusmods.com/morrowind/mods/46364)
-
-The page linked to above is actually a collection of small mods by PikachunoTM, the author (or rather editor) of UMOPP. Most, but not all, of these mods are related to the official plugins in some way. The only file we need on this page is Better Propylon Teleport Script.
-
-This mod improves the teleportation system between strongholds to ask you for confirmation before teleporting, and to allow you to choose a destination if you have the Master Index. There are two plugins in the archive; use only the Master Index version, not both.
 
 ## [Particle Arrow Replacer](https://www.nexusmods.com/morrowind/mods/47749)
 
@@ -4335,8 +4329,7 @@ Cinia
 Dubdilla Location Fix
 Bloated Morrowind Magnified
 Under Construction
-Unofficial Morrowind Official Plugins Patched
-Better Propylon Teleport Script
+Official Plugins Naturalized
 Particle Arrow Replacer
 Area Effect Projectiles Integrated
 Expeditious Exit
@@ -4665,9 +4658,8 @@ Patch for Purists - Book Typos.ESP
 Patch for Purists - Semi-Purist Fixes.ESP
 Patch for Purists - Merged Fixes.esp
 Lake Fjalding Anti-Suck.ESP
-master_index.esp
-EBQ_Artifact.esp
-Better Propylon Teleport Warp-Master Index.esp
+Master Index Naturalized.esp
+Helm of Tohan Naturalized.esp
 Area Effect Projectiles Integrated (PAR Edit).esp
 AtmosphericSnd+ExpandedSnd-3.5-NoMusic.esp
 Dubdilla Location Fix.ESP
