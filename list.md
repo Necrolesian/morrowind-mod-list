@@ -3213,13 +3213,13 @@ Fortunately this mod is here to solve that problem by allowing us to travel to M
 
 You can't start the Tribunal main quest early this way (you still have to be attacked for that), but you can travel to Mournhold, explore, and complete Tribunal miscellaneous quests. A whole area of the game, once blocked off, is now available to you practically from the get-go.
 
-## [Reputation Fixes](https://www.nexusmods.com/morrowind/mods/51096) ([Necro Edit](https://www.dropbox.com/s/v2i30lc02hcf7id/Reputation%20Fixes%201.0%20Necro%20Edit.7z?dl=1))
+## [Reputation Fixes](https://www.nexusmods.com/morrowind/mods/51096)
 
 This mod corrects an inexplicable oversight on the part of the developers. For most factions, you'll gain a good amount of reputation by working you way through the faction's quests. But, very strangely, you get no reputation at all for Fighters Guild and Thieves Guild quests, and almost no rep for Imperial Legion quests.
 
 With this mod, you'll now receive a reasonable amount of reputation for completing the Fighters Guild and Imperial Legion questlines, in line with other factions. You'll earn less rep from the Thieves Guild quests (since you're not supposed to be attracting attention), but more than zero.
 
-The "Necro Edit" version of the mod fixes a few issues, mostly incorporating a few fixes from Patch for Purists (see its readme for details), so grab that version.
+Grab the "All Reputation Fixes" version under main files, rather than the modular version further down. The combined version includes a few fixes absent from the modular version, and there's no reason not to enjoy the benefits of this mod for all three factions anyway.
 
 ## [Hospitality Papers Expanded](https://www.nexusmods.com/morrowind/mods/46107)
 
@@ -4557,7 +4557,7 @@ Magicka Based Skill Progression
 Nimble Armor
 Expansion Delay
 Early Transport to Mournhold
-Reputation Fixes (Necro Edit)
+Reputation Fixes
 Hospitality Papers Expanded
 Expansions Integrated
 Creeping Blight - MWSE Version
