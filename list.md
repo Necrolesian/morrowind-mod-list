@@ -1161,7 +1161,7 @@ This is particularly important if you choose to use Restrictive Saving, one of t
 
 Additional changes implemented by SSS include the ability to autosave under different circumstances (entering or leaving combat, cell change, automatically after a certain amount of time has passed). It also causes quickload to load your most recent save of whatever type, not just a quicksave.
 
-I suggest grabbing the mod from Github, which might be more up to date than the version on the Nexus. In Github, just click the "code" button, then click "download zip." You'll then need to create an archive with just SSS to install in Wrye Mash. (We'll also be installing UI Expansion and Consistent Enchanting later, so go ahead and create installers for those mods as well.)
+I suggest grabbing the mod from Github, which might be more up to date than the version on the Nexus. In Github, just click the "code" button, then click "download zip." You'll then need to create an archive with just SSS to install in Wrye Mash. (We'll also be installing UI Expansion later, so go ahead and create an installer for that mod as well.)
 
 There are a few changes that I suggest making in the Mod Config Menu. These changes are necessary if you plan to use Restrictive Saving, but I recommend them even if you don't. First, disable all four "create autosave" options. We don't want the game autosaving all the time. Not only is that immersion-breaking, but it would conflict with Restrictive Saving, which would cause those autosaves to fail.
 
@@ -3439,14 +3439,6 @@ This is all well and good, but the problem is that the aforementioned powerful a
 
 Install the PFP version of the mod, which incorporates a fix from Patch for Purists, not the "vanilla" version. Also included is a patch for a mod called Ownership Overhaul; you might as well go ahead and enable the patch now, if you plan on installing OO, which you really should.
 
-## Consistent Enchanting ([Nexus](https://www.nexusmods.com/morrowind/mods/50029), [Github](https://github.com/NullCascade/morrowind-mods))
-
-When you enchant a weapon or a piece of armor, the item's condition is not carried over to the enchanted version. In other words, if the item you're enchanting is damaged, enchanting it will repair it to full. This mod fixes that; enchanted items will retain the condition of their base items.
-
-This mod also carries over any script that was attached to the base item, and any data that was attached to them by other MWSE-lua mods, though that's unlikely to be important when using this list. There's an MCM where you can disable carrying over certain things, but there's no need to mess with it.
-
-This is another mod with a (usually) more up-to-date version on NullCascade's Github, so I suggest grabbing it from there.
-
 ## [Randomized Chargen](https://www.nexusmods.com/morrowind/mods/46915)
 
 Randomized Chargen is an MWSE mod that allows you to randomly roll the following characteristics when you create your character: race, sex, face, hair, (non-custom) class, and birthsign. This, combined with the Name Generator mod above, allows you to almost completely randomize your character. It's also fully compatible with Quick Char.
@@ -4577,7 +4569,6 @@ Great Service
 Religions Elaborated
 Improved Temple Experience
 Divayth Fyr Puzzle Fixed
-Consistent Enchanting
 Randomized Chargen
 Economy Adjuster Adjustments
 HardTrade
