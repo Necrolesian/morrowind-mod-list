@@ -3127,6 +3127,10 @@ There are two main options here: the "colored" maps or the "yellowed" maps. I su
 
 Note that this is not a proper map pack for Map and Compass. Each of the subdirectories of the archive just contains the loose map files to replace the ones in the Wagner pack. To install these files with Wrye Mash (which you should do in case you decide to uninstall them later), you'll need to fix the directory structure of the archive so the map files are in MWSE\mods\Map and Compass\mapsWagner\\.
 
+## Attribute Effect Tweaks ([Nexus](https://www.nexusmods.com/morrowind/mods/51161), [Moddinghall](https://mw.moddinghall.com/file/172-attribute-effect-tweaks))
+
+This mod makes a couple minor tweaks to the Restore/Damage Attribute effects. It doesn't do anything important on its own, but, for technical reasons, it's required by Fortify MAX and CCCP, the next two mods on this list. So just install it and let's move on.
+
 ## Fortify MAX ([Nexus](https://www.nexusmods.com/morrowind/mods/49825), [Moddinghall](https://mw.moddinghall.com/file/152-fortify-max))
 
 The Fortify Magicka and Fortify Fatigue effects are broken. They add a one-time use pool of magicka/fatigue to your current total, which will be gone after a few spellcasts or weapon swings, and everything you gained will be lost once the effect wears off, possibly resulting in collapsing on the ground in exhaustion. These effects are more useful for exploits than for their intended use - fortify your fatigue above max and you'll get better prices from merchants and be better at persuasion.
@@ -4548,6 +4552,7 @@ Enhanced Detection
 Enhanced Detection (Less) Lite
 Map and Compass
 Map Replacements
+Attribute Effect Tweaks
 Fortify MAX
 Class-Conscious Character Progression
 Quest Skill Reward Fix
