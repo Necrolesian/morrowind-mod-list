@@ -3439,6 +3439,12 @@ This is all well and good, but the problem is that the aforementioned powerful a
 
 Install the PFP version of the mod, which incorporates a fix from Patch for Purists, not the "vanilla" version. Also included is a patch for a mod called Ownership Overhaul; you might as well go ahead and enable the patch now, if you plan on installing OO, which you really should.
 
+## [Consistent Enchanting](https://www.nexusmods.com/morrowind/mods/50029)
+
+When you enchant a weapon or a piece of armor, the item's condition is not carried over to the enchanted version. In other words, if the item you're enchanting is damaged, enchanting it will repair it to full. This mod fixes that; enchanted items will retain the condition of their base items.
+
+This mod also carries over any script that was attached to the base item, and any data that was attached to them by other MWSE-lua mods, though that's unlikely to be important when using this list. There's an MCM where you can disable carrying over certain things, but there's no need to mess with it.
+
 ## [Randomized Chargen](https://www.nexusmods.com/morrowind/mods/46915)
 
 Randomized Chargen is an MWSE mod that allows you to randomly roll the following characteristics when you create your character: race, sex, face, hair, (non-custom) class, and birthsign. This, combined with the Name Generator mod above, allows you to almost completely randomize your character. It's also fully compatible with Quick Char.
@@ -4569,6 +4575,7 @@ Great Service
 Religions Elaborated
 Improved Temple Experience
 Divayth Fyr Puzzle Fixed
+Consistent Enchanting
 Randomized Chargen
 Economy Adjuster Adjustments
 HardTrade
