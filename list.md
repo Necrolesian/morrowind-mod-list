@@ -3737,6 +3737,8 @@ This mod has a significant effect on difficulty. It can make it much harder to f
 
 It's not necessary or desirable to use BTB's edited version of Service Requirements 1.4.3, because BTB's faction-related edits to that mod have been incorporated into the Necro Edit version of BTBGI above. Just use Service Requirements Revised.
 
+Note that the most recent version of the mod is currently listed under "update files" on the download page, beneath an older version. Be sure you're downloading the most recent file.
+
 ## [Tribunal Rebalance](https://www.nexusmods.com/morrowind/mods/45713)
 
 Morrowind has a fundamental balance problem beyond what BTBGI fixes. The game was originally released without the Mournhold and Solstheim content, with the Tribunal and Bloodmoon expansions adding that new content later. The expansions were designed to be played through by characters who had already done everything they could do on Vvardenfell and thus were super-powerful.
