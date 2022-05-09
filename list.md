@@ -1371,13 +1371,11 @@ This mod allows you to toggle cast on strike weapon enchantments on and off. By 
 
 This represents a major convenience improvement, and makes cast on strike weapons considerably more attractive. Now you can reserve your weapon charge for when you need it, and avoid wasting charges when you don't.
 
-## [Magican't](https://www.nexusmods.com/morrowind/mods/50990) ([Necro Edit](https://www.dropbox.com/s/wc0uf9hxratb9gj/Magican%27t%201.1.0%20Necro%20Edit.7z?dl=1))
+## [Magican't](https://www.nexusmods.com/morrowind/mods/50990)
 
 Beneath the magic icon in the HUD is a fillbar that indicates at a glance what chance you have to successfully cast the currently active spell. So far so good. But when you don't have enough magicka to cast the spell, the HUD fillbar does not indicate this; it continues to indicate the chance you *would* have to successfully cast the spell *if* you had enough magicka to attempt to cast it at all!
 
 Magican't fixes this; now, the cast chance fillbar will correctly indicate that you can't cast the spell if you can't cast the spell due to insufficient magicka.
-
-The "Necro Edit" version linked above fixes errors being spammed in the MWSE log under certain circumstances, and is the version I recommend.
 
 ## No Auto Vanity Camera ([Nexus](https://www.nexusmods.com/morrowind/mods/48933), [Moddinghall](https://mw.moddinghall.com/file/150-no-auto-vanity-camera))
 
@@ -4359,7 +4357,7 @@ Rational Names
 Clock Block
 HUD Weapon Charge
 Controlled Weapon Enchants
-Magican't (Necro Edit)
+Magican't
 No Auto Vanity Camera
 Assetless No Glow
 No Shield Sparkle
