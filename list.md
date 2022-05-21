@@ -3508,9 +3508,11 @@ In theory, it would be possible to use HardTrade alongside the Merchant Skills m
 
 HardTrade also affects the prices of other services, such as spells and fast travel, though the effect is less severe.
 
-There are two issues with HardTrade that need to be addressed. First, by default the mod caps your effective attributes and skills (e.g. personality, mercantile) at 100 when trading. I think this is unnecessary, as the coefficient that determines the change to buy/sell price can't go below 1.5 anyway (thus the floor of 150-gold buy price for a 100-gold item). This limiting feature can be disabled in the Mod Config Menu.
+There are a few issues with HardTrade that need to be addressed. First, I don't use the most recent version of the mod, as it adds a few more unnecessary features. I recommend grabbing version 2.6 under "old files".
 
-Second, and more importantly, HardTrade also does a couple other unnecessary things that can't be disabled in the MCM, so we'll need to edit the mod's .lua file and comment out a few lines. (To comment out a line, put two hyphens at the beginning of the line, so it changes from `<code>` to `--<code>`.)
+Second, by default the mod caps your effective attributes and skills (e.g. personality, mercantile) at 100 when trading. I think this is unnecessary, as the coefficient that determines the change to buy/sell price can't go below 1.5 anyway (thus the floor of 150-gold buy price for a 100-gold item). This limiting feature can be disabled in the Mod Config Menu.
+
+Finally, and more importantly, HardTrade also does a couple other unnecessary things that can't be disabled in the MCM, so we'll need to edit the mod's .lua file and comment out a few lines. (To comment out a line, put two hyphens at the beginning of the line, so it changes from `<code>` to `--<code>`.)
 
 In addition to the core price formula, HardTrade also changes six of the game's GMSTs related to haggling and bribing to make both more difficult (it makes these changes via the lua script rather than with a plugin). This might sound like a good change, but we don't need it; HardTrade makes getting a good deal from a merchant extraordinarily difficult even without these GMST changes. Also, implementing these changes via the lua script will override any plugin that also changes any of these values, and one of the mods on this list does.
 
