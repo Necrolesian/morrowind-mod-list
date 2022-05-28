@@ -1377,6 +1377,14 @@ Beneath the magic icon in the HUD is a fillbar that indicates at a glance what c
 
 Magican't fixes this; now, the cast chance fillbar will correctly indicate that you can't cast the spell if you can't cast the spell due to insufficient magicka.
 
+## Accurate Tooltip Stats ([Nexus](https://www.nexusmods.com/morrowind/mods/51354), [Moddinghall](https://mw.moddinghall.com/file/178-accurate-tooltip-stats))
+
+When calculating how much damage you do with a weapon, the game takes the "official" damage stats listed in the Construction Set, and modifies them by your strength and the weapon's condition (and also your opponent's armor rating). But weapon tooltips in vanilla don't take any of these factors into account - they just show the listed damage stats.
+
+There's a similar issue with armor tooltips; while the vanilla tooltips do take your armor skill into consideration when showing armor rating, they ignore the armor's condition, even though the game also factors it in when calculating your actual AR.
+
+This mod makes the damage/AR display in weapon/armor tooltips more accurate and useful by taking into account your strength for weapons, and item condition for both weapons and armor. It can also be configured to show more precise values for damage/AR (one digit past the decimal point, rather than an integer).
+
 ## No Auto Vanity Camera ([Nexus](https://www.nexusmods.com/morrowind/mods/48933), [Moddinghall](https://mw.moddinghall.com/file/150-no-auto-vanity-camera))
 
 This tiny mod simply prevents the game from automatically switching to vanity camera mode (where the camera circles around the player in third person) due to inactivity. You no longer have to keep moving the mouse every 30 seconds when you're trying to just watch something. You can still manually enable the vanity cam if you want.
@@ -4360,6 +4368,7 @@ Clock Block
 HUD Weapon Charge
 Controlled Weapon Enchants
 Magican't
+Accurate Tooltip Stats
 No Auto Vanity Camera
 Assetless No Glow
 No Shield Sparkle
