@@ -706,7 +706,7 @@ After installing MGE XE itself, you'll need to run MWSE-Update.exe (which is now
 
 I suggest you run MWSE-Update.exe occasionally to update your MWSE version, whenever you install a new MWSE mod or update one to a newer version. MWSE is under active development, so new versions can be released frequently.
 
-MGE XE can be launched directly from Wrye Mash, though you might have to open up the Wrye Mash settings window and tell it where MGE XE is first. Below I'll go through (some of) the various MGE XE settings. You can hover the mouse over most settings to see a brief explanation as well.
+MGE XE can be launched directly from Wrye Mash, though you might have to open up the Wrye Mash settings window and tell it where MGE XE is first. Below I'll go through (some of) the various MGE XE settings. You can hover the mouse over most settings to see a brief explanation as well. (Many of these settings can also later be tweaked in-game in the Mod Config Menu.)
 
 Finally, before we get into the nuts and bolts of the MGE XE settings, there's also the distant statics overrides files linked above that I recommend installing. This is my personal edit of Abot's original overrides file, which replaces the woefully inadequate one that ships with MGE XE.
 
