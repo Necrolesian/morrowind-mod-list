@@ -690,7 +690,7 @@ There's one more step you can do after installation to improve EE. In the EE ins
 
 You can do a lot of advanced stuff with Enchanted Editor, but the simple changes we might need to make, like tweaking values or deleting references, are very easy.
 
-## [Morrowind Graphics Extender XE](https://www.nexusmods.com/morrowind/mods/41102) ([Distant Statics Overrides](https://www.dropbox.com/s/j25igx3p0m5bejs/Abot%20Distant%20Statics%20Override%20-%20Necro%20Edit%202.0.7z?dl=1))
+## [Morrowind Graphics Extender XE](https://www.nexusmods.com/morrowind/mods/41102) ([Distant Statics Overrides](https://www.dropbox.com/s/9rgwv9yjbipp5gi/Abot%20Distant%20Statics%20Overrides%20-%20Necro%20Edit%202.0.1.7z?dl=1))
 
 MGE XE is a utility that can drastically improve the appearance of Morrowind. It has antisotropic filtering and anti-aliasing options, advanced lighting options, shaders, and more. One of its biggest graphical improvements is its distant land feature, which can significantly extend the default Morrowind view distance and render distant terrain and objects in the background (depending on how powerful your system is).
 
