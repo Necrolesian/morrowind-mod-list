@@ -3845,9 +3845,9 @@ This is a patch by Sigourn for Mort's "rebalance series" mods and BTBGI. It shou
 
 ## [Alvazir's Various Patches](https://www.nexusmods.com/morrowind/mods/48955)
 
-This page is a collection of many (many) patches and tweaks. The file we're mainly looking for on this page is "BTBGI Necro Edit Modular Patch", which is itself a collection of many (many) patches for BTBGI and other mods, plus a few tweaks intended for use with BTBGI. However, also pick up the Bloodmoon Rebalance PFP Patch.
+This page is a collection of many (many) patches and tweaks. The file we're looking for on this page is "BTBGI Necro Edit Modular Patch", which is itself a collection of many (many) patches for BTBGI and other mods, plus a few tweaks intended for use with BTBGI.
 
-There are only a few plugins we're interested in here. The others either are patches for mods not on this list, or I can't recommend them for other reasons. All of these plugins except the last are in the BTBGI Patch archive.
+There are only a few plugins we're interested in here. The others either are patches for mods not on this list, or I can't recommend them for other reasons.
 
 ### Better Clothes Complete and Better Robes Patches
 
@@ -3879,15 +3879,13 @@ I don't care for the other changes made by this plugin. So, if you want to use i
 
 Delete all of the plugin's *other* GMSTs in EE.
 
-### Bloodmoon Rebalance PFP Patch
-
-This patch has its own separate download on the linked page; it's not in the BTBGI Patch archive.
-
-This one patches a number of creatures edited by Bloodmoon Rebalance, incorporating fixes from PFP. Put it somewhere after Bloodmoon Rebalance in your load order.
-
 -----
 
 There's also a file called "Miscellaneous Patches". If you're following this list, this file isn't needed. But if you're not using a body replacer (like Robert's Bodies, the one on this list), you'll want to pick this up and enable the Chuzei BTBGI patch, which combines the fix to a particular helm in MOP's Chuzei fix with the change that BTBGI makes to that helm. (You don't need MOP's Chuzei fix plugin with this patch; just make sure the patch loads after BTBGI.)
+
+## [Bloodmoon Rebalance PFP Patch](https://www.dropbox.com/s/y4sko9cs5c9lud6/Bloodmoon%20Rebalance%20PFP%20Patch%201.0.7z?dl=1)
+
+This file simply patches a few creatures edited by Bloodmoon Rebalance, incorporating fixes from PFP. The latest version of Bloodmoon Rebalance actually includes several PFP fixes, but it misses a few, so a patch is still necessary. Put it somewhere after Bloodmoon Rebalance in your load order.
 
 ## Blighted Blight ([Nexus](https://www.nexusmods.com/morrowind/mods/48631), [Moddinghall](https://mw.moddinghall.com/file/146-blighted-blight))
 
