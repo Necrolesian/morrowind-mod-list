@@ -2660,7 +2660,7 @@ The "fixes" archive contains a few sub-packages. We need the fixed meshes and th
 
 Finally, this is the last of the major architecture texture replacers. This one covers Vivec and other Velothi buildings, such as temples.
 
-For now we only need the main HQ file from the downloads page. You might want to go ahead and pick up one of the atlas downloads, as we'll need it later, but don't install it yet. (Ideally the UHQ atlas download is best, but it gives me problems in-game due to being too large for my graphics card, so I actually use the HQ atlas file.)
+For now we only need the main HQ file from the downloads page. You might want to go ahead and pick up one of the atlas downloads, as we'll need it later, but don't install it yet. (Ideally the UHQ atlas download is best, but it gives me problems in-game due to being too large for my graphics card, so I actually use the HQ atlas file. You might need the MQ atlas if you have a lower-end graphics card.)
 
 ## [Better Rugs](https://www.nexusmods.com/morrowind/mods/46339)
 
@@ -2874,7 +2874,9 @@ We need this for the BC mushrooms and Imperial dragon statue, both of which are 
 
 ## [Vivec and Velothi Arkitektora Atlas Texture](https://www.nexusmods.com/morrowind/mods/46266)
 
-The file we're looking for is the Atlas download, either HQ or UHQ. (You might have already downloaded it when you were here earlier.) The UHQ file is higher resolution, but it doesn't work for everybody. For me it's borked, because it's too large for my system to handle. If you have trouble with the UHQ archive, grab the HQ one instead.
+The file we're looking for is the Atlas download. (You might have already downloaded it when you were here earlier.) There are three versions: MQ, HQ, and UHQ.
+
+The UHQ file is very high resolution, but it doesn't work for everybody. For me it's borked, because it's too large for my system to handle, so I use the HQ file, which works fine for me. Some lower-end graphics cards have problems with the HQ file as well and need the MQ file. Use the highest-quality file that works with your graphics card.
 
 This atlas texture is based on the regular textures from Vivec and Velothi Arkitektora Vol 2 that we've already installed, so they'll be completely consistent with any objects that don't use atlases, plus interiors.
 
