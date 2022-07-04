@@ -1586,14 +1586,6 @@ A number of creatures were supposed to have animated special effects (death effe
 
 Note that a couple of these meshes (Dagoth Ur and Ancestor Ghosts) will be replaced by other mods further on, but that's okay.
 
-## [Correct UV Rocks](http://mw.modhistory.com/download-45-13485)
-
-A mesh replacer for rocks. Fixes seams and other sorts of ugliness in the thousands and thousands of rocks in Morrowind.
-
-Note that the above link is to version 1.0 of the mod, while there is a [version 1.5](https://www.nexusmods.com/morrowind/mods/46104) available on the Nexus. Version 1.5 adds bottoms to many rocks, to fix floaters. But the bottoms reduce performance and they're unnecessary with PFP, which just lowers the rocks that are too high, which is why version 1.0 is on this list instead.
-
-There's one problematic file that needs to be deleted from the archive prior to installation: meshes\f\Terrain_rock_WG_17.nif. This file causes this particular rock to partially block the entrance to the cave Assarnud.
-
 ## [Morrowind Optimization Patch](https://www.nexusmods.com/morrowind/mods/45384)
 
 This is the biggest and by far the most important of the mesh replacers on this list. MOP replaces an enormous number of the game's meshes, with improvements aimed at increasing performance without harming visuals. See the description on the Nexus for more information.
@@ -4387,7 +4379,6 @@ Cutscenes Revamped - Cavern of the Incarnate
 Prince of Moonshadow
 Prince of Moonshadow Fix
 Creature VFX Restoration
-Correct UV Rocks
 Morrowind Optimization Patch
 Moar Meshes
 Moar Meshes - Extra
