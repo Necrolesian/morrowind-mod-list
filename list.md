@@ -3343,7 +3343,7 @@ With this mod, your backward and strafing speeds will be modified by a configura
 
 This is much more realistic. Now, if you start running backward while slinging spells or arrows at your opponents, expect them to be able to catch up with you. You can adjust the speed modifiers in the MCM, though I recommend leaving them as they are.
 
-## [Balance Your Burdens](https://www.nexusmods.com/morrowind/mods/50860) ([Necro Edit](https://www.dropbox.com/s/vu60nc3ezg9g9ji/Balance%20Your%20Burdens%201.1%20Necro%20Edit.7z?dl=1))
+## [Balance Your Burdens](https://www.nexusmods.com/morrowind/mods/50860) ([Necro Edit](https://www.dropbox.com/s/4mnhkap82inkzmn/Balance%20Your%20Burdens%201.1%20Necro%20Edit%20v2.7z?dl=1))
 
 This mod, among other things, causes your encumbrance to have a much greater effect on your movement speed, to the point where you'll move very slowly when fully loaded up. This does more than any other mod on this list to incentivize you to watch your encumbrance and travel light when possible. It also breathes new life into the Feather effect, which you'll have much more incentive to use when you must travel with a full pack.
 
