@@ -2912,7 +2912,7 @@ Specifically, if you're following this list, the following atlas textures should
 
 If you're following this list, these are the only textures that should be installed from this archive. BC mushrooms and the Imperial dragon statue are using IT textures (and thus the IT atlas textures), and we've already taken care of Velothi and Redoran. (The Redoran sub-package in this mod contains a special Redoran atlas texture for use with the mod [RR Better Redoran Architecture](https://www.nexusmods.com/morrowind/mods/43266), which we're not using.)
 
-Be sure to install the correct redware and urns textures, as there are multiple options for each. Also included are "half size" options for Imperial and Nord Common atlas textures. Only use these if the full size textures cause problems in-game.
+Be sure to install the correct urns texture (the one from Dunmeri Urns). Also included are "half size" options for Imperial and Nord Common atlas textures. Only use these if the full size textures cause problems in-game.
 
 The game will now look exactly the same as it did before we started installing atlases, but should perform much better in certain areas.
 
