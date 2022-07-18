@@ -3425,7 +3425,7 @@ Additionally, healers in the temples will now actually provide healing services 
 
 Finally, the mod makes a few changes regarding a few Temple and Cult quests. The biggest change here is that the Cult quests are no longer all based out of Ebonheart. Two of the quest types now have different quest givers in different locations. There are also a few minor tweaks and additional options for some quests, but no additional major changes.
 
-There are two versions of the mod available for download. The "no quest changes" version omits the changes described in the above paragraph (decentralizing the Cult quests out of Ebonheart and the additional tweaks), but still implements the other changes. I recommend the regular version, but use the alternate version if you want.
+The archive contains several versions of the plugin which omit one or more of the mod's features - I recommend just using the full version.
 
 ## [Improved Temple Experience](https://www.nexusmods.com/morrowind/mods/49373)
 
