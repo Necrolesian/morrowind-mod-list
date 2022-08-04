@@ -3409,9 +3409,11 @@ This mod enables the ability to rent a room in these places, via the "beds" topi
 
 This mod works very well with No Rest Without Beds, which we'll install later and which will give you a good reason to seek out a bed.
 
-## [Great Service](https://www.nexusmods.com/morrowind/mods/47767)
+## [Great Service](https://www.nexusmods.com/morrowind/mods/47767) ([Spockthewok Edit](https://github.com/Sigourn/morrowindsharp/raw/codex/mods/Great%20Service%20(spockthewok%20Edit).7z))
 
 Morrowind shipped with a great number of voice dialogue lines from service providers of different races and both sexes that were never actually heard in-game. This includes lines from pawnbrokers, alchemists, spell merchants and more, offering services, promoting their wares and so on. This mod simply enables these Bethesda dialogue lines to be heard in-game, providing much greater diversity of spoken dialogue, at least for service providers.
+
+The "Spockthewok edit" linked above fixes quite a few errors/inconsistencies in the subtitle texts, and is the version I recommend (although if you play with subtitles off it doesn't really matter).
 
 ## [Religions Elaborated](https://www.nexusmods.com/morrowind/mods/47843)
 
@@ -4578,7 +4580,7 @@ Wings of Will
 A Sinking Feeling
 Alchemical Knowledge
 The Publicans
-Great Service
+Great Service (Spockthewok Edit)
 Religions Elaborated
 Improved Temple Experience
 Divayth Fyr Puzzle Fixed
@@ -4688,7 +4690,7 @@ Religions Elaborated.ESP
 Improved Temple Experience.ESP
 The Publicans.ESP
 No Beds for the Diseased.ESP
-Great Service.ESP
+Great_Service.ESP
 Mournhold LOD.ESP
 Divayth Fyr Puzzle Fixed.ESP
 Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
