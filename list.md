@@ -2037,9 +2037,9 @@ The others would be overwritten by better replacers later on or are just not wor
 
 ## [Seamless Papill6n Bedrolls](https://www.nexusmods.com/morrowind/mods/47266)
 
-Part of "Ellie's Mystic Minimods," another of those small mod compilations, this tiny mod is just an update to the bedroll texture from Papill6n Various Graphics Things that removes unsightly seams.
+Part of "Elodie's Mystic Minimods," another of those small mod compilations, this tiny mod is just an update to the bedroll texture from Papill6n Various Graphics Things that removes unsightly seams.
 
-There are a few other mods at the above link we'll eventually need, so you might want to go ahead and download Touched Up Ringmail, Vanilla Land Crackedearth Fix, and Imperial Door Fixes while you're there.
+There are a few other mods at the above link we'll eventually need, so you might want to go ahead and download Touched Up Ringmail, Vanilla Land Crackedearth Fix, and Imperial Door Tweaks while you're there.
 
 ## [Soulgem Ingredient Retexture](https://www.nexusmods.com/morrowind/mods/19467)
 
@@ -2083,7 +2083,7 @@ It doesn't matter whether you use the "alternate" Imperial Chain Cuirass texture
 
 ## [Touched Up Ringmail](https://www.nexusmods.com/morrowind/mods/47266)
 
-This is part of "Ellie's Mystic Minimods," and you might have already picked up this file earlier.
+This is part of "Elodie's Mystic Minimods," and you might have already picked up this file earlier.
 
 Darknut's Armor Textures skips over the Nordic Ringmail Cuirass. This small mod addresses that oversight. This version is somewhat darker than the Intelligent Textures version. I like it.
 
@@ -2333,7 +2333,7 @@ Oh, and if your first thought on seeing the new scum texture (in the stagnant po
 
 ## [Vanilla Land Crackedearth Fix](https://www.nexusmods.com/morrowind/mods/47266)
 
-You might have already downloaded this file; this mod is part of "Ellie's Mystic Minimods."
+You might have already downloaded this file; this mod is part of "Elodie's Mystic Minimods."
 
 One of the textures included in Vanilla Land is unnecessarily pixellated. This tiny mod fixes that issue. To see the difference, look at the ground in the Erabenimsun Camp.
 
@@ -2439,9 +2439,9 @@ Next up is the Imperial areas (e.g. Pelagiad). This mod covers both forts and ot
 
 Like the last couple mods, you only need the main HQ file from the downloads page; skip the optional files.
 
-## [Imperial Door Fixes](https://www.nexusmods.com/morrowind/mods/47266)
+## [Imperial Door Tweaks](https://www.nexusmods.com/morrowind/mods/47266)
 
-Yet another small mod that's part of "Ellie's Mystic Minimods" and which you might have picked up earlier.
+Yet another small mod that's part of "Elodie's Mystic Minimods" and which you might have picked up earlier.
 
 This mod includes a few fixes for the Imperial door meshes. Also install the sub-package "Arkitektora Fix," which includes an improved texture for Imperial Ordo Arkitektora's keyhole.
 
@@ -4473,7 +4473,7 @@ Full Dwemer Retexture
 Hlaalu Arkitektora Vol 2
 Hlaalu Retexture
 Imperial Ordo Arkitektora
-Imperial Door Fixes
+Imperial Door Tweaks
 Articus Old Mournhold and Sewers Retexture 2k
 Raven Rock HD
 Shacks Docks and Ships Arkitektora
