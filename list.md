@@ -1261,6 +1261,14 @@ The hotkeys default to U (quest list) and I (topic list), but they can be modifi
 
 This small but great MWSE mod adds an indicator to the names of all books that you've already read. For example, once you've read Lives of the Saints, the name of all copies of that book in the future will display as "Lives of the Saints (Read)" to let you know you've already read it. I consider this a must-have convenience mod.
 
+## [Reading Is Good](https://www.nexusmods.com/morrowind/mods/51705)
+
+In vanilla Morrowind, certain books are skill books, which will increase one of your skills by one point when read. This incentivizes you to wait as long as possible before reading skill books to get the most out of them (because later skill point gains are more time-consuming than earlier gains).
+
+This mod removes that incentive by changing how skill books work. Instead of immediately raising your skill, skill books will now slightly increase the rate at which the relevant skill will increase through use for the rest of the game. Now you're better off reading skill books as soon as you encounter them. No more carefully avoiding reading skill books and hoarding them to read much later.
+
+Various aspects of the mod are configurable in the MCM, but the default settings are reasonable.
+
 ## [Shrine Tooltips](https://www.nexusmods.com/morrowind/mods/48275)
 
 Another small MWSE convenience mod, this one for Tribunal shrines. When you activate a shrine, you'll see a list of blessings to choose from. Some of these, like "cure disease" or "restore attributes," are self-explanatory, but for many blessings it's not at all obvious what the effects are until you choose it. This mod adds a tooltip that will display these blessings' effects when you hover over their button, so you'll no longer be surprised when a blessing gives you a useless "resist corprus disease" effect.
@@ -4351,6 +4359,7 @@ MultiEnchant
 Smart Journal
 Hot Quests
 Book Worm
+Reading Is Good
 Shrine Tooltips
 No Thank You
 Essential Indicators
