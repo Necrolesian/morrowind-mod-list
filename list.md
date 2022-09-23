@@ -3229,11 +3229,11 @@ You can't start the Tribunal main quest early this way (you still have to be att
 
 ## [Reputation Fixes](https://www.nexusmods.com/morrowind/mods/51096)
 
-This mod corrects an inexplicable oversight on the part of the developers. For most factions, you'll gain a good amount of reputation by working you way through the faction's quests. But, very strangely, you get no reputation at all for Fighters Guild and Thieves Guild quests, and almost no rep for Imperial Legion quests.
+This mod corrects an inexplicable oversight on the part of the developers. For most factions, you'll gain a good amount of reputation by working you way through the faction's quests. But, very strangely, you get no reputation at all for Fighters Guild and Thieves Guild quests, and almost no rep for Imperial Legion quests. The devs also totally forgot to implement reputation rewards in the Tribunal and Bloodmoon quests.
 
-With this mod, you'll now receive a reasonable amount of reputation for completing the Fighters Guild and Imperial Legion questlines, in line with other factions. You'll earn less rep from the Thieves Guild quests (since you're not supposed to be attracting attention), but more than zero.
+With this mod, you'll now receive a reasonable amount of reputation for completing the Fighters Guild and Imperial Legion questlines, in line with other factions. You'll earn less rep from the Thieves Guild quests (since you're not supposed to be attracting attention), but more than zero. You'll also earn reputation from certain quests in the expansions (mostly the main quests).
 
-Grab the "All Reputation Fixes" version under main files, rather than the modular version further down. The combined version includes a few fixes absent from the modular version, and there's no reason not to enjoy the benefits of this mod for all three factions anyway.
+Grab the "All Reputation Fixes" version under main files, rather than the modular version further down. The modular version is based on an older version of the mod that's missing several fixes.
 
 ## [Hospitality Papers Expanded](https://www.nexusmods.com/morrowind/mods/46107)
 
