@@ -2287,7 +2287,7 @@ In Tribunal, there are a number of "old Dwemer books" that contain a single line
 
 There are two .esps in the archive, one for use with MCP's "better typography" patch and one without. Only use one (and you really should be using better typography).
 
-## [Bookart Replacer](https://www.nexusmods.com/morrowind/mods/48896) ([PFP Fixes](https://github.com/Sigourn/morrowindsharp/raw/master/mods/Comrade%20Raven's%20Book%20Arts%20(PfP%20Edit).7z))
+## [Bookart Replacer](https://www.nexusmods.com/morrowind/mods/48896) ([PFP Fixes](https://github.com/Sigourn/morrowindsharp/raw/main/mods/Comrade%20Raven's%20Book%20Arts%20(PfP%20Edit).7z))
 
 More bookart here - this mod replaces the bookart in the base game with crisper, higher resolution drawings that are very faithful to the originals.
 
