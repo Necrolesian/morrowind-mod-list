@@ -3680,7 +3680,7 @@ The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
-There is one more consideration with Anti-Cheese. One of the mods further down on this list is More Deadly Morrowind Denizens, which, among other things, modifies a bunch of NPCs to make them tougher. Anti-Cheese edits some of the same NPCs, and since this version of Anti-Cheese needs to come after BTBGI in the load order, while MDMD should load before BTBGI, Anti-Cheese will override MDMD's better edits to those NPCs.
+There are two more considerations with Anti-Cheese. First, one of the mods further down on this list is More Deadly Morrowind Denizens, which, among other things, modifies a bunch of NPCs to make them tougher. Anti-Cheese edits some of the same NPCs, and since this version of Anti-Cheese needs to come after BTBGI in the load order, while MDMD should load before BTBGI, Anti-Cheese will override MDMD's better edits to those NPCs.
 
 Therefore, if you plan to use MDMD, you'll need to remove the offending NPC edits from the Anti-Cheese plugin. To do this, open up Anti-Cheese with Enchanted Editor, and delete the following NPC records:
 
@@ -3694,6 +3694,8 @@ Therefore, if you plan to use MDMD, you'll need to remove the offending NPC edit
 - Sorkvild the Raven
 - Vindamea Drethan
 - Volrina Quarra
+
+Second, Anti-Cheese overrides an important edit to the creature Staada. To fix this, also delete the reference to Staada while you're in EE.
 
 ## [Better Character Classes](https://www.nexusmods.com/morrowind/mods/47078)
 
