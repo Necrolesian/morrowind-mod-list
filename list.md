@@ -3853,7 +3853,7 @@ This is a patch by Sigourn for Mort's "rebalance series" mods and BTBGI. It shou
 
 ## [Alvazir's Various Patches](https://www.nexusmods.com/morrowind/mods/48955)
 
-This page is a collection of many (many) patches and tweaks. The file we're looking for on this page is "BTBGI Necro Edit Modular Patch", which is itself a collection of many (many) patches for BTBGI and other mods, plus a few tweaks intended for use with BTBGI.
+This page is a collection of many (many) patches and tweaks. The file we're mainly looking for on this page is "BTBGI Necro Edit Modular Patch", which is itself a collection of many (many) patches for BTBGI and other mods, plus a few tweaks intended for use with BTBGI.
 
 There are only a few plugins we're interested in here. The others either are patches for mods not on this list, or I can't recommend them for other reasons.
 
@@ -3889,7 +3889,9 @@ Delete all of the plugin's *other* GMSTs in EE.
 
 -----
 
-There's also a file called "Miscellaneous Patches". If you're following this list, this file isn't needed. But if you're not using a body replacer (like Robert's Bodies, the one on this list), you'll want to pick this up and enable the Chuzei BTBGI patch, which combines the fix to a particular helm in MOP's Chuzei fix with the change that BTBGI makes to that helm. (You don't need MOP's Chuzei fix plugin with this patch; just make sure the patch loads after BTBGI.)
+There's also a file called "Miscellaneous Patches". Install the "script fix" for Master Index Naturalized, which fixes an error in one of the scripts from that mod.
+
+Also, if you're *not* using a body replacer (like Robert's Bodies, the one on this list), you'll want to enable the Chuzei BTBGI patch, which combines the fix to a particular helm in MOP's Chuzei fix with the change that BTBGI makes to that helm. (You don't need MOP's Chuzei fix plugin with this patch; just make sure the patch loads after BTBGI.)
 
 ## [Bloodmoon Rebalance PFP Patch](https://www.dropbox.com/s/y4sko9cs5c9lud6/Bloodmoon%20Rebalance%20PFP%20Patch%201.0.7z?dl=1)
 
@@ -4621,7 +4623,8 @@ TCBOO Expansions Integrated Patch
 Sigourn - Ownership Overhaul Patches
 Sigourn - MDMD Patches
 Rebalance Series BTBGI Patch
-BTBGI Necro Edit Modular Patch
+Alvazir - BTBGI Necro Edit Modular Patch
+Alvazir - Misc Patches
 Bloodmoon Rebalance PFP Patch
 Blighted Blight
 Equipment Requirements - Necro Edit
@@ -4679,6 +4682,7 @@ Patch for Purists - Semi-Purist Fixes.ESP
 Patch for Purists - Merged Fixes.esp
 Lake Fjalding Anti-Suck.ESP
 Master Index Naturalized.esp
+Master Index Naturalized - Script Fix.esp
 Helm of Tohan Naturalized.esp
 Area Effect Projectiles Integrated (PAR Edit).esp
 AtmosphericSnd+ExpandedSnd-3.5-NoMusic.esp
