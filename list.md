@@ -1598,7 +1598,7 @@ Note that a couple of these meshes (Dagoth Ur and Ancestor Ghosts) will be repla
 
 This is the biggest and by far the most important of the mesh replacers on this list. MOP replaces an enormous number of the game's meshes, with improvements aimed at increasing performance without harming visuals. See the description on the Nexus for more information.
 
-Optional sub-packages include a few textures that work well with the MOP meshes, "Lake Fjalding Anti-Suck" (which improves performance around Lake Fjalding on Solstheim by consolidating many of the meshes in that area), and a couple patches that can be ignored.
+Optional sub-packages include a few textures that work well with the MOP meshes, "Lake Fjalding Anti-Suck" (which improves performance around Lake Fjalding on Solstheim by consolidating many of the meshes in that area), a couple patches that can be ignored, and a patch for Graphic Herbalism that we'll need later (don't install it now, but create a separate installer for it).
 
 In addition to the core sub-package, install the Better Vanilla Textures and Lake Fjalding Anti-Suck sub-packages. (Most of the textures in Better Vanilla Textures will be overwritten by our texture replacers later on, but not all of them will be, so go ahead and install it.)
 
@@ -2605,6 +2605,10 @@ The Patches and Replacers file (which should obviously be installed after the ma
 
 And that's it for the moment. Do *not* install any of the atlas sub-packages for now; we'll come back to them in the atlas mods section of this list. The other sub-packages are patches for replacers and other mods we're not using, so they should be ignored.
 
+## Morrowind Optimization Patch - GH Patch
+
+Remember back when you installed MOP, and I said to create a separate installer for its Graphic Herbalism patch? Now's the time to install it. This should come after the main GH installer but before GH Patches and Replacers in the install order.
+
 ## [Graphic Herbalism Lighting](https://www.nexusmods.com/morrowind/mods/47864)
 
 This mod fixes a minor annoying issue with Graphic Herbalism. Morrowind places glowing lights around certain plants, such as the Bitter Coast mushrooms and ore rocks (which are technically plant containers). With Graphic Herbalism, these plants disappear or are altered after being picked, but the light remains. This mod causes the glowing light to disappear when the plant is harvested, a definite realism improvement.
@@ -2850,9 +2854,9 @@ Project Atlas is a collection of atlased meshes for areas and objects (e.g. Hlaa
 
 At this time, if you're following this list (and in particular if you've installed the texture replacers that this list suggests), I recommend installing version 0.6.5 of Project Atlas, under "old files". The most recent version is very different, and better, but there are no atlas textures for it generated from the texture replacers we're using at this time, and generating them is a pain in the ass (which is why I haven't updated my Atlas Texture Collection yet). Once I do the necessary work, I'll update this list accordingly. For now, just install the older version 0.6.5.
 
-Install order is particularly important here. Project Atlas should be *after* the main Graphic Herbalism archive (which itself should be after Glow in the Dahrk), but *before* the GH Patches and Replacers archive on the Installers tab in Wrye Mash. The reason for this is that GH Patches and Replacers includes atlas patches for the Bitter Coast mushrooms which must overwrite the Project Atlas meshes in order for Graphic Herbalism to work with them.
+Install order is particularly important here. Project Atlas should be *after* the main Graphic Herbalism archive (which itself should be after Glow in the Dahrk), and *after* the GH patch from MOP, but *before* the GH Patches and Replacers archive on the Installers tab in Wrye Mash. The reason for this is that GH Patches and Replacers includes atlas patches for the Bitter Coast mushrooms which must overwrite the Project Atlas meshes in order for Graphic Herbalism to work with them.
 
-In other words, the install order is: GITD, GH, Project Atlas, GH Patches and Replacers.
+In other words, the install order is: GITD, GH, MOP GH Patch, Project Atlas, GH Patches and Replacers.
 
 One of the atlas meshes in the core sub-package is borked and needs to be deleted before installation: meshes\x\ex_imp_plat_01.nif. If this mesh is present, you'll end up stuck underwater when fast traveling from Raven Rock to Fort Frostmoth.
 
@@ -4510,6 +4514,7 @@ Apel Sacks
 Better Crates
 Glow in the Dahrk
 Graphic Herbalism
+Morrowind Optimization Patch - GH Patch
 Project Atlas
 Graphic Herbalism Patches and Replacers
 Graphic Herbalism Lighting
