@@ -3680,7 +3680,7 @@ The readme includes detailed comparisons between vanilla, BTBGI and this mod, an
 
 This mod makes a number of changes to the game in order to prevent exploits or make it more difficult to get really nice stuff. It makes some enemies guarding aforementioned nice stuff tougher, plus adds some new guards and other enemies, replaces some of that nice stuff with less nice stuff, and makes a few other changes. See the readme for a complete list.
 
-The link above is actually to "BTBGI Necro Edit Tweaked and Patches", which is a modified version of BTBGI Necro Edit, plus a number of patches. There are a number of files available for download; we only need the main file, "BTBGI Necro Edit Tweaked". (The file "BTBGI Necro Edit Tweaked Patches" will be needed later only if you'll be installing Ashfall.) The main archive contains a number of sub-packages, but we only need Anti-Cheese.
+The link above is actually to "BTBGI Necro Edit Tweaked", which is a modified version of BTBGI Necro Edit, plus a number of patches. The archive several plugins and an MWSE directory with a few MWSE mods, but we only need Anti-Cheese. Create an installer with *only* the Anti-Cheese plugin for Wrye Mash installation, without any of the other stuff here. (You might also be installing the Ashfall patch in the MWSE directory later.)
 
 This version of Morrowind Anti-Cheese has been modified from [the original](https://www.nexusmods.com/morrowind/mods/47305) for compatibility with BTBGI, and should come immediately after BTBGI and its patches in your load order. (If you're not using BTBGI for some reason, then you should use a [different alternate version](https://www.nexusmods.com/morrowind/mods/49232) of Anti-Cheese instead.)
 
@@ -4253,7 +4253,7 @@ There are a few special considerations for those following this list if you choo
 
 Ashfall changes the values of a few ingredients; in particular, it lowers the value of three meat ingredients that BTBGI raises. This patch raises them back to BTBGI values.
 
-You should have already downloaded the main file from the above link. Now we need the file "BTBGI Necro Edit Tweaked Patches". Install *only* the Ashfall patch from this archive (the Enhanced Detection patch is for the full version of ED, which this list doesn't recommend), and make sure it comes after Ashfall in the install order in Wrye Mash.
+You should have already downloaded the file from the above link. Create an installer with *only* the directory MWSE\mods\ashfallBTBGI\ (without any of the other stuff in the archive) and install in Wrye Mash. (You might notice an Enhanced Detection patch in the archive, but it's for the full version of ED, which this list doesn't recommend.)
 
 However I do recommend tweaking the patch's main.lua first to change the value of Rat Meat from 10 to 15, as it is in BTBGI Necro Edit.
 
