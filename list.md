@@ -1,3 +1,25 @@
+# Read This First
+
+Before we get to the actual modlist, you should be aware that right now I'm not actively maintaining this list. I do plan on jumping back in to this eventually, but I have no idea when that might be. What this means is that, for now and for the foreseeable future, the list is *out of date*, and will only get more out of date as time goes on.
+
+I'm leaving the list up, because I think it's potentially still a useful resource - I think you're smart enough to figure out where the list is out of date. However, there are two specific notes I think are important enough to add here.
+
+## tes3merge / Merged Objects
+
+[tes3merge](https://www.nexusmods.com/morrowind/mods/46870) has made a lot of progress since this list was last seriously updated; it now basically includes the leveled list merging functionality of tes3cmd's multipatch. What this means is that it's no longer necessary to create a multipatch with tes3cmd. Just use tes3merge, and the Merged Objects plugin will include your merged leveled lists.
+
+You'll still want to install tes3cmd, which is still very useful for cleaning mods. I also still recommend carefully examining Merged Objects in tes3view and making sure everything looks correct.
+
+## Project Atlas
+
+The list advises to use an old, out of date version of [Project Atlas](https://github.com/revenorror/Project-Atlas), but seriously, don't do that. Just grab the current version of PA from Github, and follow the instructions in the readme on Github regarding install order.
+
+Do *not* use Atlas Texture Collection. It's severely out of date, and doesn't work with newer versions of Project Atlas. If you want to use all the texture replacers I include in this list, you'll need to generate your own atlas textures using the batch files that come with Project Atlas. That said, I've moved away from hires texture replacers myself. It's far simpler to just use either [Intelligent Textures](https://www.nexusmods.com/morrowind/mods/47469) or [Morrowind Enhanced Textures](https://www.nexusmods.com/morrowind/mods/46221), whichever you like best - they both include pre-generated atlas textures.
+
+-----
+
+Now, on to the actual list.
+
 # Introduction
 
 Before we begin, a few notes:
